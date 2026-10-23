@@ -84,7 +84,10 @@ A section that makes inclusion visible, linking to official resources: Scouts wi
 - Translate the parts new families rely on first: the menu, buttons and filters, New to Scouting, Save on Scouting, Help paying and Scouting is for everyone. Event titles from councils stay in their original English, with Spanish labels around them.
 - Translations are prepared carefully, then reviewed by a fluent Spanish-speaking volunteer before they go live, so Scouting terms come out right.
 - Point Spanish-speaking families to Scouting America's own Spanish-language materials, researched and verified when building.
-- Every page keeps the same address in both languages, and the choice is remembered for each visitor.
+- One switch changes the whole site, not one page at a time. The choice follows the visitor from page to page and is remembered on their next visit.
+- If a visitor's phone or computer is set to Spanish, the site opens in Spanish automatically; the switch stays visible to change it.
+- Every page keeps the same address in both languages.
+- Where an official Spanish version of a linked page exists, Spanish readers get that link instead.
 
 ## Planned: Ticket summary and hand-off
 - A one-page summary that maps everything built to each of the five Wood Badge ticket goals, with evidence: number of councils covered, opportunities listed, links checked weekly, cost-saving resources, and pages for new families.
