@@ -14,6 +14,34 @@ Everything we add should be something we'd be proud to share at a roundtable or 
 - **Official sources first.** Link to Scouting America's own published material rather than rewriting it, so the official version stays the source of truth.
 - **Spread the load.** Every adult takes on a part of Scouting, so no one burns out and every family has a stake in the program.
 
+## Ticket map: five goals, five lasting systems
+The Wood Badge ticket's vision: every Scout can take part, whatever their family's finances, background or ability to pay. Each goal becomes a system that keeps running after the ticket is signed off. Every system has the same four parts:
+
+1. **A home on the site** that anyone can find.
+2. **A how-to** written so any adult can run it without help.
+3. **A refresh rhythm**, automatic where possible and on a calendar where not.
+4. **A hand-off**: who owns it next, written into MAINTAINING.md.
+
+| Goal | The system | Home on the site | Refresh | Status |
+|---|---|---|---|---|
+| 1. Scoutbook advancement mentoring packet and toolkit | Scoutbook toolkit: a step-by-step guide plus a short recorded walkthrough, why up-to-date records matter, and a checklist for new advancement helpers | Guides → Keeping advancement up to date (links to official Scoutbook help) | Review each August before the program year | Not started. Earliest deadline: January 2027 |
+| 2. Uniform and gear resource and referral system | Gear and uniform help: resource guide, the Scout It Out swap group (the virtual exchange), and a how-to for a portable unit uniform bin brought to meetings and bridging ceremonies | Save on Scouting | Swap group runs continuously; resource links checked every Monday | Swap group live; page and bin how-to planned |
+| 3. Scholarship and financial-aid navigation | Financial-aid navigator: every council, district and national camp and trip aid option with a yearly deadline calendar, plus a private way for families to ask for help (a form that goes only to unit leadership, never public) | Help paying (live) → expand with deadline calendar and private request link | Links checked every Monday; deadline calendar reviewed each fall before camp registration | Help paying tab live; calendar and private form planned |
+| 4. Opportunity-awareness system for parents | Opportunity finder: the site itself, updated automatically every week (more often than the quarterly sheet the goal calls for), plus a printable one-page sheet and a QR-code flyer for drop-off tables so parents reach it directly | Opportunities (live) → add printable sheet and QR flyer | Automatic every Monday | Mostly done; printable sheet and flyer planned |
+| 5. Recruit and mentor a merit badge counselor | Counselor pipeline: why counselors matter, how to apply, required training, and a short prep-conversation guide a mentor can use with any new recruit | Guides → Becoming a merit badge counselor | Reviewed yearly; links checked every Monday | Planned |
+
+### Suggested build order (by ticket deadline)
+1. Goal 4 finishing touches: printable sheet and QR flyer (closest to done, and the first sheet is due within about two months).
+2. Goal 1: Scoutbook toolkit (January 2027 deadline).
+3. Goal 2: Save on Scouting page and uniform bin how-to (3 to 5 months).
+4. Goal 3: deadline calendar and private request process (4 to 8 months).
+5. Goal 5: counselor guide (4 to 6 months).
+6. Then the rest of the roadmap: New to Scouting, Scouting is for everyone, Spanish, Fun Stuff.
+
+### Notes for the ticket
+- Goal 1's "Timely" box is still blank in the draft. A date such as "toolkit drafted by December 2026, training delivered by January 2027" would complete it.
+- Privacy: personal contact details from the ticket worksheet stay off this public site.
+
 ## Done
 - Opportunities list from 10 councils within about two hours of Laurel, MD (NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO/IOLS, merit badges, OA, camps).
 - Help paying, Councils and Training path tabs.
@@ -90,7 +118,7 @@ A section that makes inclusion visible, linking to official resources: Scouts wi
 - Where an official Spanish version of a linked page exists, Spanish readers get that link instead.
 
 ## Planned: Ticket summary and hand-off
-- A one-page summary that maps everything built to each of the five Wood Badge ticket goals, with evidence: number of councils covered, opportunities listed, links checked weekly, cost-saving resources, and pages for new families.
+- A one-page summary for the ticket counselor that follows the ticket map above, with evidence for each goal: what was built, where it lives, and how it keeps running.
 - A hand-off guide (MAINTAINING.md) so other volunteers can keep the site going: how the Monday update and link check work, how to read the weekly email, how to fix or remove a listing on GitHub, how to add a resource, and who to contact. This is what makes the project self-sustaining after the ticket is complete.
 
 ## Planned: Resources section
