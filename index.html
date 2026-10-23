@@ -32,6 +32,7 @@ img{max-width:100%}
   --tent: #3A5F8F; --tent-soft: #DDE6F2;
   --tba: #66706A; --tba-soft: #E6E9E3;
   --focus: #C98A12;
+  --band-accent: #F5CF73;
   --f-display: "Zilla Slab", "Rockwell", Georgia, serif;
   --f-body: "Public Sans", "Segoe UI", system-ui, sans-serif;
   --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -72,9 +73,8 @@ header.band .wrap { padding-block: 36px 28px; display: grid; gap: 14px; }
 .eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .8; }
 h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(32px, 6vw, 52px); line-height: 1.02; margin: 0; text-wrap: balance; }
 .lede { max-width: 62ch; margin: 0; font-size: 16px; opacity: .92; }
-.facts { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--f-mono); font-size: 13px; }
-.facts b { font-weight: 600; color: var(--gold-soft); }
-:root[data-theme="dark"] .facts b { color: var(--gold); }
+.facts { color: var(--pine-ink); display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--f-mono); font-size: 13px; }
+.facts b { font-weight: 700; color: var(--band-accent); }
 
 /* Tabs */
 nav.tabs { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
@@ -320,6 +320,25 @@ footer p { margin: 0; max-width: 80ch; }
     tentative: "Save the date",
     tba: "Dates not posted"
   };
+  // Only links to these official Scouting sites are ever shown, whatever data.json says.
+  const APPROVED = ["scouting.org", "scoutingevent.com", "247scouting.com", "summitbsa.org", "nesa.org",
+    "baltimorescouting.org", "broadcreekscouting.org", "ncacscouting.org", "gotosnyder.org",
+    "delmarvacouncil.org", "sacscouting.org", "newbirthoffreedom.org", "padutchbsa.org", "cccbsa.org",
+    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org"];
+  function safeUrl(u) {
+    try {
+      const url = new URL(u);
+      if (url.protocol !== "https:" && url.protocol !== "http:") return null;
+      const h = url.hostname.toLowerCase();
+      return APPROVED.some(d => h === d || h.endsWith("." + d)) ? url.href : null;
+    } catch (e) { return null; }
+  }
+  function linkOrNote(u, cls, text) {
+    const href = safeUrl(u);
+    if (!href) return el("span", "small", "Link pending review");
+    const a = el("a", cls, text); a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer";
+    return a;
+  }
   const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const MONTHS_LONG = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
@@ -443,9 +462,7 @@ footer p { margin: 0; max-width: 80ch; }
     art.appendChild(body);
 
     const act = el("div", "act");
-    const a = el("a", "go" + (o.status === "open" ? "" : " ghost"), o.status === "open" ? "Register ↗" : "Details ↗");
-    a.href = o.url; a.target = "_blank"; a.rel = "noopener";
-    act.appendChild(a);
+    act.appendChild(linkOrNote(o.url, "go" + (o.status === "open" ? "" : " ghost"), o.status === "open" ? "Register ↗" : "Details ↗"));
     art.appendChild(act);
     return art;
   }
@@ -497,7 +514,7 @@ footer p { margin: 0; max-width: 80ch; }
       card.appendChild(el("p", "small", c.note));
       if (c.lodge) card.appendChild(el("p", "small", "OA: " + c.lodge));
       const links = el("div", "links");
-      c.links.forEach(l => { const a = el("a", null, l.label + " ↗"); a.href = l.url; a.target = "_blank"; a.rel = "noopener"; links.appendChild(a); });
+      c.links.forEach(l => { if (safeUrl(l.url)) links.appendChild(linkOrNote(l.url, null, l.label + " ↗")); });
       card.appendChild(links);
       grid.appendChild(card);
     });
@@ -512,8 +529,7 @@ footer p { margin: 0; max-width: 80ch; }
       art.appendChild(el("h3", null, x.title));
       art.appendChild(el("div", "who", x.who));
       art.appendChild(el("div", null, x.how));
-      const a = el("a", null, "Open ↗"); a.href = x.url; a.target = "_blank"; a.rel = "noopener";
-      art.appendChild(a);
+      art.appendChild(linkOrNote(x.url, null, "Open ↗"));
       box.appendChild(art);
     });
   }
