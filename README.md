@@ -20,3 +20,6 @@ Each opportunity looks like this:
 - `start` / `end`: YYYY-MM-DD, or null when not posted. Past events hide themselves automatically.
 
 Always confirm dates on the council's own page before registering.
+
+## Automatic updates and safety
+A scheduled Claude task checks the councils every Monday morning, updates `data.json`, runs `tools/check_data.py`, and commits only if the check passes. See [CONTENT-STANDARDS.md](CONTENT-STANDARDS.md) for the rules every listing must follow.

@@ -114,7 +114,7 @@
     }
   ],
   "opportunities": [
-    { "id": "bac-baloo-np-f26", "council": "bac", "type": "BALOO", "audience": "Adult", "status": "open",
+    { "id": "bac-baloo-np-f26", "council": "bac", "type": "BALOO / IOLS", "audience": "Adult", "status": "open",
       "title": "National Pike BALOO, Fall 2026", "start": "2026-11-15", "end": "2026-11-20",
       "dateText": "Virtual session Nov 15 · in person Nov 20, 2026",
       "location": "Poplar Springs Scout Hall, Mount Airy, MD", "cost": null,
