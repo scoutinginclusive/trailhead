@@ -1,6 +1,6 @@
 # Content standards
 
-National Pike Trailhead is for Scouts, families and volunteers. Everything on it must be accurate and appropriate for a Scouting America youth audience. These rules apply to people and to the automatic weekly update alike.
+Scouting Out Scouts is for Scouts, families and volunteers. Everything on it must be accurate and appropriate for a Scouting America youth audience. These rules apply to people and to the automatic weekly update alike.
 
 ## What belongs
 - Scouting America programs only: NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO, IOLS and other leader training, merit badge events, Order of the Arrow, council camps, and scholarships or financial aid for these.

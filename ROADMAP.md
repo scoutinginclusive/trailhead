@@ -1,6 +1,6 @@
 # Roadmap
 
-Plans for National Pike Trailhead, a Wood Badge ticket project to make Scouting easier to find, join and afford.
+Plans for Scouting Out Scouts, a Wood Badge ticket project to make Scouting easier to find, join and afford. The name comes from Ian's (Eagle Scout) fundraising book.
 
 ## The Scouting spirit behind this site
 Everything we add should be something we'd be proud to share at a roundtable or a campfire.
@@ -52,8 +52,8 @@ A friendly, non-intimidating first stop for families. Short sections, plain word
 Practical ways to lower the cost, local and national.
 
 - **Gear and uniform swaps:**
-  - **Scout It Out - Gear & Uniform Swap**: the team's private Facebook group for families around Laurel, MD (20708) to swap uniforms, Scouting gear and camping equipment. Private to protect members; admins approve each request to join. Exact group link to come; approve that link only, not all of Facebook. On the site, explain that it's private, how to request to join, and the group's safety rules (see below).
-  - Suggested group rules, in the Scouting spirit: membership for parents, guardians and adult volunteers only; no photos or names of youth in posts; trade in public places like a Scout shop, library or council office; free or fair prices, no reselling for profit.
+  - **Scout It Out - Gear & Uniform Swap**: the team's private Facebook group for families around Laurel, MD (20708) to swap uniforms, Scouting gear and camping equipment. Open to families from any Scouting-type organization. Private to protect members; admins approve each request to join after three membership questions. Link: https://www.facebook.com/share/g/1Qb6uhd7Yv/ (approve this exact link only, not all of Facebook). On the site, explain that it's private, how to request to join, and summarize the group rules.
+  - Group rules (written October 2026): 1 Be kind, courteous and friendly. 2 Keep our youth safe (adults only, no youth names or faces, adults arrange every swap). 3 Free first, fair always (no reselling or businesses). 4 Be trustworthy (honest descriptions). 5 Meet safely (public places, addresses by private message only). 6 Follow through. 7 Scouting items only (no swapping earned awards; knives, axes and fuel adult to adult; no firearms or ammunition). 8 Pay it forward. 9 Admins keep it safe (report harm to law enforcement or child protective services first; Scouting America concerns also to the Scouts First Helpline, 844-726-8871).
   - NCAC's H.O.S.T.I.N.G. committee (Helping Other Scout Troops Incorporate Needed Gear): uniforms and camping gear, pickup in Silver Spring, MD. See ncacscouting.org/resources/for-scouts/uniforms-and-gear-for-scouts/
   - Ask each council about a uniform closet or exchange; ask your unit about used-uniform bins and loaner gear.
 - **Buying used or low-cost gear:** vetted outside sources for used camping gear and free community swaps. Each must be reviewed and added to the approved-link list one by one.
@@ -75,6 +75,20 @@ Just for fun, always in the Scouting spirit.
 - **Camp recipes:** original, easy recipes for patrol and family camping (foil packets, Dutch oven cobbler, walking tacos, campfire banana boats, pancakes). Each with serving size, gear needed, and allergy and food-safety notes.
 - **Skits:** short, original write-ups of classic campfire skit ideas. Every skit must pass the Scout-appropriate test: no put-downs, no bathroom or underwear humor, no making fun of anyone's background, nothing that embarrasses a participant. Scouting magazine has published guidance on this; read it and link it when building.
 - **Songs:** full lyrics only for traditional songs old enough to be in the public domain (published before 1929, such as rounds like "Row, Row, Row Your Boat"). Popular modern campfire songs get a link to an official source instead of lyrics, so we respect copyright.
+
+## Planned: Scouting is for everyone
+A section that makes inclusion visible, linking to official resources: Scouts with disabilities and special needs (Baltimore has a Special Needs Committee), religious emblems for all faiths, girls and family dens, families new to the country, and making cost a non-issue.
+
+## Planned: Languages
+- A visible language switch at the top of every page: **English | Español** to start, more languages later if the community asks.
+- Translate the parts new families rely on first: the menu, buttons and filters, New to Scouting, Save on Scouting, Help paying and Scouting is for everyone. Event titles from councils stay in their original English, with Spanish labels around them.
+- Translations are prepared carefully, then reviewed by a fluent Spanish-speaking volunteer before they go live, so Scouting terms come out right.
+- Point Spanish-speaking families to Scouting America's own Spanish-language materials, researched and verified when building.
+- Every page keeps the same address in both languages, and the choice is remembered for each visitor.
+
+## Planned: Ticket summary and hand-off
+- A one-page summary that maps everything built to each of the five Wood Badge ticket goals, with evidence: number of councils covered, opportunities listed, links checked weekly, cost-saving resources, and pages for new families.
+- A hand-off guide (MAINTAINING.md) so other volunteers can keep the site going: how the Monday update and link check work, how to read the weekly email, how to fix or remove a listing on GitHub, how to add a resource, and who to contact. This is what makes the project self-sustaining after the ticket is complete.
 
 ## Planned: Resources section
 - Permanent links to resources the team creates, kept separate from dated listings so the weekly update never removes them.

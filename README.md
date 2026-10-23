@@ -1,4 +1,4 @@
-# National Pike Trailhead
+# Scouting Out Scouts
 
 Scouting America opportunities (NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO/IOLS, merit badge events, Order of the Arrow, camps) and scholarships from councils within about two hours of Laurel, MD.
 
