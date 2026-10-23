@@ -52,7 +52,8 @@ A friendly, non-intimidating first stop for families. Short sections, plain word
 Practical ways to lower the cost, local and national.
 
 - **Gear and uniform swaps:**
-  - The team's local Facebook swap group (link to come; approve that exact link only, not all of Facebook).
+  - **Scout It Out - Gear & Uniform Swap**: the team's private Facebook group for families around Laurel, MD (20708) to swap uniforms, Scouting gear and camping equipment. Private to protect members; admins approve each request to join. Exact group link to come; approve that link only, not all of Facebook. On the site, explain that it's private, how to request to join, and the group's safety rules (see below).
+  - Suggested group rules, in the Scouting spirit: membership for parents, guardians and adult volunteers only; no photos or names of youth in posts; trade in public places like a Scout shop, library or council office; free or fair prices, no reselling for profit.
   - NCAC's H.O.S.T.I.N.G. committee (Helping Other Scout Troops Incorporate Needed Gear): uniforms and camping gear, pickup in Silver Spring, MD. See ncacscouting.org/resources/for-scouts/uniforms-and-gear-for-scouts/
   - Ask each council about a uniform closet or exchange; ask your unit about used-uniform bins and loaner gear.
 - **Buying used or low-cost gear:** vetted outside sources for used camping gear and free community swaps. Each must be reviewed and added to the approved-link list one by one.
