@@ -15,6 +15,7 @@ Scouting Out Scouts is for Scouts, families and volunteers. Everything on it mus
 ## What never goes on the site
 - Links to anything other than the approved official Scouting sites (the list is in `assets/site.js` and `tools/check_data.py`). The written pages may also link to a short list of reviewed exceptions: the Scout It Out swap group on Facebook and this project's own GitHub repository. Each new exception is reviewed by a person and added here first.
 - Images, video, HTML or code inside `data.json`.
+- Photos of people, unless everyone pictured has agreed (and a parent or guardian has agreed for anyone under 18). Photos never carry names, and their hidden location data is removed before upload. Photos appear only on the written pages, never in `data.json`.
 - Anything sexual, violent, hateful, or about alcohol, drugs, gambling or dating.
 - Listings for fundraisers, social events for adults, committee meetings and roundtables. (Guidance on approved ways to earn money, on the Save on Scouting page, is fine.)
 - Personal phone numbers or emails, except a course contact the council itself published for that course.
