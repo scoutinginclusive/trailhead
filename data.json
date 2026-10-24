@@ -42,7 +42,8 @@
           "label": "National Pike District training",
           "url": "https://baltimorescouting.org/nationalpike/program/np-training/"
         }
-      ]
+      ],
+      "zip": "21211"
     },
     {
       "id": "ncac",
@@ -79,7 +80,8 @@
           "label": "NCAC website calendar",
           "url": "https://ncacscouting.org/calendar/"
         }
-      ]
+      ],
+      "zip": "20814"
     },
     {
       "id": "dmv",
@@ -112,7 +114,8 @@
           "label": "Council event calendar",
           "url": "https://scoutingevent.com/081"
         }
-      ]
+      ],
+      "zip": "19904"
     },
     {
       "id": "sac",
@@ -145,7 +148,8 @@
           "label": "Council event calendar",
           "url": "https://scoutingevent.com/598"
         }
-      ]
+      ],
+      "zip": "22602"
     },
     {
       "id": "nbf",
@@ -174,7 +178,8 @@
           "label": "Training registrations",
           "url": "https://newbirthoffreedom.org/training/training-registrations/"
         }
-      ]
+      ],
+      "zip": "17055"
     },
     {
       "id": "pad",
@@ -203,7 +208,8 @@
           "label": "Council training page",
           "url": "http://padutchbsa.org/training/"
         }
-      ]
+      ],
+      "zip": "17601"
     },
     {
       "id": "ccc",
@@ -228,7 +234,8 @@
           "label": "Council event calendar",
           "url": "https://scoutingevent.com/539"
         }
-      ]
+      ],
+      "zip": "19341"
     },
     {
       "id": "hovc",
@@ -257,7 +264,8 @@
           "label": "Council event calendar",
           "url": "https://scoutingevent.com/602"
         }
-      ]
+      ],
+      "zip": "23228"
     },
     {
       "id": "col",
@@ -287,7 +295,8 @@
           "label": "Council event calendar",
           "url": "https://scoutingevent.com/?OrgKey=BSA525"
         }
-      ]
+      ],
+      "zip": "19087"
     },
     {
       "id": "vhc",
@@ -313,7 +322,8 @@
           "label": "Council event calendar",
           "url": "https://scoutingevent.com/763"
         }
-      ]
+      ],
+      "zip": "24401"
     },
     {
       "id": "natl",
@@ -343,7 +353,8 @@
           "label": "National Wood Badge",
           "url": "https://www.summitbsa.org/training/wood-badge/"
         }
-      ]
+      ],
+      "zip": "25840"
     }
   ],
   "opportunities": [
@@ -360,7 +371,8 @@
       "location": "Poplar Springs Scout Hall, Mount Airy, MD",
       "cost": null,
       "url": "https://scoutingevent.com/220-fall26npdbaloo",
-      "note": "Your own district's course. Required for Cub Scout pack overnights."
+      "note": "Your own district's course. Required for Cub Scout pack overnights.",
+      "zip": "21771"
     },
     {
       "id": "chc-mb-nov3",
@@ -374,7 +386,8 @@
       "location": "PARC, Exton, PA",
       "cost": null,
       "url": "https://scoutingevent.com/539-citnat",
-      "note": "Separate registration for American Business: scoutingevent.com/539-119079"
+      "note": "Separate registration for American Business: scoutingevent.com/539-119079",
+      "zip": "19341"
     },
     {
       "id": "ncac-weld-mb",
@@ -387,7 +400,8 @@
       "end": "2026-11-02",
       "location": "Building Momentum, Alexandria, VA",
       "cost": null,
-      "url": "https://scoutingevent.com/082-113797"
+      "url": "https://scoutingevent.com/082-113797",
+      "zip": "22314"
     },
     {
       "id": "ncac-eng-mb",
@@ -400,7 +414,8 @@
       "end": "2026-11-07",
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": null,
-      "url": "https://scoutingevent.com/082-120865"
+      "url": "https://scoutingevent.com/082-120865",
+      "zip": "20169"
     },
     {
       "id": "bac-carroll-mb",
@@ -414,7 +429,8 @@
       "location": "St. John's Catholic Church, Westminster, MD",
       "cost": null,
       "url": "https://scoutingevent.com/220-120975",
-      "note": "Pick one morning and one afternoon class. Troop members only."
+      "note": "Pick one morning and one afternoon class. Troop members only.",
+      "zip": "21157"
     },
     {
       "id": "ncac-amher-mb",
@@ -427,7 +443,8 @@
       "end": "2026-11-08",
       "location": "National Museum of the U.S. Army, Fort Belvoir, VA",
       "cost": null,
-      "url": "https://scoutingevent.com/082-fall26amerheritage"
+      "url": "https://scoutingevent.com/082-fall26amerheritage",
+      "zip": "22060"
     },
     {
       "id": "ncac-comp-mb",
@@ -440,7 +457,8 @@
       "end": "2026-11-11",
       "location": "Building Momentum, Alexandria, VA",
       "cost": null,
-      "url": "https://scoutingevent.com/082-113800"
+      "url": "https://scoutingevent.com/082-113800",
+      "zip": "22314"
     },
     {
       "id": "bac-vts-26",
@@ -454,7 +472,8 @@
       "location": "Loyola Blakefield, Towson, MD",
       "cost": null,
       "url": "https://scoutingevent.com/220-2026VTS",
-      "note": "A full day of leader courses in one place."
+      "note": "A full day of leader courses in one place.",
+      "zip": "21204"
     },
     {
       "id": "ccc-mbc",
@@ -468,7 +487,8 @@
       "dateText": "Nov 14, 2026 and Feb 20, 2027 (attend both)",
       "location": "Archmere Academy, Claymont, DE",
       "cost": null,
-      "url": "https://scoutingevent.com/539-MBC"
+      "url": "https://scoutingevent.com/539-MBC",
+      "zip": "19703"
     },
     {
       "id": "ccc-oa-lld",
@@ -481,7 +501,8 @@
       "end": "2026-11-21",
       "location": "PARC, Exton, PA",
       "cost": null,
-      "url": "https://scoutingevent.com/539-121702"
+      "url": "https://scoutingevent.com/539-121702",
+      "zip": "19341"
     },
     {
       "id": "ccc-mb-weather",
@@ -494,7 +515,8 @@
       "end": "2026-11-25",
       "location": "PARC, Exton, PA",
       "cost": null,
-      "url": "https://scoutingevent.com/539-122678"
+      "url": "https://scoutingevent.com/539-122678",
+      "zip": "19341"
     },
     {
       "id": "ccc-mb-movie",
@@ -507,7 +529,8 @@
       "end": "2026-12-29",
       "location": "PARC, Exton, PA",
       "cost": null,
-      "url": "https://scoutingevent.com/539-122682"
+      "url": "https://scoutingevent.com/539-122682",
+      "zip": "19341"
     },
     {
       "id": "ccc-horseshoe-mb",
@@ -521,7 +544,8 @@
       "dateText": "Moviemaking Jan 9 · Geology Mar 20 · Cooking Apr 17 · Kayaking Apr 24 · Fishing May 8, 2027",
       "location": "Camp Horseshoe, Rising Sun, MD",
       "cost": null,
-      "url": "https://scoutingevent.com/539-119626"
+      "url": "https://scoutingevent.com/539-119626",
+      "zip": "21911"
     },
     {
       "id": "nbf-fot-27",
@@ -535,7 +559,8 @@
       "location": "Hidden Valley Scout Reservation, Loysville, PA",
       "cost": null,
       "url": "https://scoutingevent.com/544-Fundamentals2027",
-      "note": "Train-the-trainer course for anyone who will teach ILST or other courses."
+      "note": "Train-the-trainer course for anyone who will teach ILST or other courses.",
+      "zip": "17047"
     },
     {
       "id": "col-mbc-27",
@@ -550,7 +575,8 @@
       "location": "Keith Valley Middle School, Horsham, PA",
       "cost": null,
       "url": "https://scoutingphilly.org/leaders/advancement/mbc/",
-      "note": "Badge list and registration not yet released."
+      "note": "Badge list and registration not yet released.",
+      "zip": "19044"
     },
     {
       "id": "bac-fot-27",
@@ -577,7 +603,8 @@
       "end": "2027-02-15",
       "location": "PARC, Exton, PA",
       "cost": null,
-      "url": "https://scoutingevent.com/539-122362"
+      "url": "https://scoutingevent.com/539-122362",
+      "zip": "19341"
     },
     {
       "id": "ccc-aclt",
@@ -590,7 +617,8 @@
       "end": "2027-02-21",
       "location": "Oscar Lasko PARC, Exton, PA",
       "cost": null,
-      "url": "https://scoutingevent.com/539-aclt"
+      "url": "https://scoutingevent.com/539-aclt",
+      "zip": "19341"
     },
     {
       "id": "ccc-ilst-27",
@@ -604,7 +632,8 @@
       "location": "Camp John H. Ware 3rd, Peach Bottom, PA",
       "cost": null,
       "url": "https://scoutingevent.com/539-112061",
-      "note": "Council-run ILST. Register only if you plan to take Chester County's spring NYLT."
+      "note": "Council-run ILST. Register only if you plan to take Chester County's spring NYLT.",
+      "zip": "17563"
     },
     {
       "id": "ccc-wfa-27",
@@ -619,7 +648,8 @@
       "location": "Chester County Public Safety Training Campus",
       "cost": null,
       "url": "https://scoutingevent.com/539-wfaspring27",
-      "note": "Needed for high-adventure trips."
+      "note": "Needed for high-adventure trips.",
+      "zip": "19380"
     },
     {
       "id": "ccc-nylt-27",
@@ -633,7 +663,8 @@
       "dateText": "Two weekends beginning Apr 9 and Apr 16, 2027",
       "location": "Camp John H. Ware 3rd, Peach Bottom, PA",
       "cost": null,
-      "url": "https://scoutingevent.com/539-NYLT27"
+      "url": "https://scoutingevent.com/539-NYLT27",
+      "zip": "17563"
     },
     {
       "id": "nbf-baloo-apr27",
@@ -647,7 +678,8 @@
       "location": "Hidden Valley Scout Reservation, Loysville, PA",
       "cost": "Meal fee",
       "url": "https://newbirthoffreedom.org/training/training-registrations/",
-      "note": "Registration not open yet. Complete the online portion on my.scouting.org first."
+      "note": "Registration not open yet. Complete the online portion on my.scouting.org first.",
+      "zip": "17047"
     },
     {
       "id": "bac-nylt-271",
@@ -662,7 +694,8 @@
       "location": "Camp Oest, Broad Creek Memorial Scout Reservation, Darlington, MD",
       "cost": "$275 ($250 if paid in full by Mar 22)",
       "url": "https://scoutingevent.com/220-nylt271",
-      "note": "Orientation at New Hope Lutheran Church in Columbia, right in National Pike District. Registration closes Apr 11."
+      "note": "Orientation at New Hope Lutheran Church in Columbia, right in National Pike District. Registration closes Apr 11.",
+      "zip": "21034"
     },
     {
       "id": "bac-wb-271",
@@ -678,7 +711,8 @@
       "location": "Broad Creek Memorial Scout Reservation, MD",
       "cost": "≈$350 (2026 rate)",
       "url": "https://scoutingevent.com/220-wb271",
-      "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator."
+      "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator.",
+      "zip": "21034"
     },
     {
       "id": "dmv-wb-27",
@@ -693,7 +727,8 @@
       "location": "Rodney Scout Reservation, North East, MD",
       "cost": "$225, paid in three $75 installments",
       "url": "https://scoutingevent.com/081-WoodBadge",
-      "note": "Lowest Wood Badge fee in the region. Full refund through Mar 31. Limited to 48."
+      "note": "Lowest Wood Badge fee in the region. Full refund through Mar 31. Limited to 48.",
+      "zip": "21901"
     },
     {
       "id": "nbf-baloo-may27",
@@ -707,7 +742,8 @@
       "location": "Camp Tuckahoe, Dillsburg, PA",
       "cost": "Meal fee",
       "url": "https://scoutingevent.com/544-BALOOMay2027",
-      "note": "IOLS runs the same weekend: scoutingevent.com/544-IOLSMay2027"
+      "note": "IOLS runs the same weekend: scoutingevent.com/544-IOLSMay2027",
+      "zip": "17019"
     },
     {
       "id": "nbf-iols-may27",
@@ -721,7 +757,8 @@
       "location": "Camp Tuckahoe, Dillsburg, PA",
       "cost": "Meal fee",
       "url": "https://scoutingevent.com/544-IOLSMay2027",
-      "note": "Required for Scoutmasters and Assistant Scoutmasters."
+      "note": "Required for Scoutmasters and Assistant Scoutmasters.",
+      "zip": "17019"
     },
     {
       "id": "natl-nayle-27",
@@ -736,7 +773,8 @@
       "location": "Summit Bechtel Reserve, WV",
       "cost": "$645 ($250 deposit)",
       "url": "https://summitbsa.org/programs/training/seven-day-conferences/nayle",
-      "note": "Next step after NYLT. Requires NYLT, ILST/ILSC and a unit leadership position."
+      "note": "Next step after NYLT. Requires NYLT, ILST/ILSC and a unit leadership position.",
+      "zip": "25840"
     },
     {
       "id": "ccc-horseshoe-27",
@@ -750,7 +788,8 @@
       "dateText": "Week 1 starts Jun 27, 2027",
       "location": "Camp Horseshoe, Rising Sun, MD",
       "cost": null,
-      "url": "https://scoutingevent.com/539-116391"
+      "url": "https://scoutingevent.com/539-116391",
+      "zip": "21911"
     },
     {
       "id": "sac-nylt-27",
@@ -764,7 +803,8 @@
       "location": "Camp Rock Enon Scout Reservation, Gore, VA",
       "cost": "Not yet posted",
       "url": "https://scoutingevent.com/598-NYLT",
-      "note": "Listed as one week, but the page also mentions two weekends. Confirm with the council (540-662-2551)."
+      "note": "Listed as one week, but the page also mentions two weekends. Confirm with the council (540-662-2551).",
+      "zip": "22637"
     },
     {
       "id": "vhc-nylt-27",
@@ -777,7 +817,8 @@
       "end": "2027-07-23",
       "location": "Camp Shenandoah, VA",
       "cost": "$295 ($75 deposit)",
-      "url": "https://www.virginiaheadwaters.org/training/nylt/"
+      "url": "https://www.virginiaheadwaters.org/training/nylt/",
+      "zip": "24479"
     },
     {
       "id": "bac-wb-272",
@@ -793,7 +834,8 @@
       "location": "Broad Creek Memorial Scout Reservation, MD",
       "cost": "≈$350 (2026 rate)",
       "url": "https://scoutingevent.com/220-wb272",
-      "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator."
+      "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator.",
+      "zip": "21034"
     },
     {
       "id": "sac-wb-27",
@@ -808,7 +850,8 @@
       "location": "Gore, VA and Fort Littleton, PA",
       "cost": "Not yet set",
       "url": "https://scoutingevent.com/598-120946",
-      "note": "Save-the-date listing. Registration closes Aug 1, 2027."
+      "note": "Save-the-date listing. Registration closes Aug 1, 2027.",
+      "zip": "22637"
     },
     {
       "id": "bac-nylt-272",
@@ -823,7 +866,8 @@
       "location": "Camp Oest, Broad Creek Memorial Scout Reservation, MD",
       "cost": "≈$275 (2027 spring rate)",
       "url": "https://baltimorescouting.org/nylt/",
-      "note": "Registration link not posted yet."
+      "note": "Registration link not posted yet.",
+      "zip": "21034"
     },
     {
       "id": "nbf-baloo-oct27",
@@ -836,7 +880,8 @@
       "end": "2027-10-09",
       "location": "Hidden Valley Scout Reservation, Loysville, PA",
       "cost": "Meal fee",
-      "url": "https://newbirthoffreedom.org/training/training-registrations/"
+      "url": "https://newbirthoffreedom.org/training/training-registrations/",
+      "zip": "17047"
     },
     {
       "id": "natl-wb-27",
@@ -850,7 +895,8 @@
       "location": "Summit Bechtel Reserve, WV",
       "cost": null,
       "url": "https://www.summitbsa.org/training/wood-badge/",
-      "note": "First national course since 2022. Meet Scouters from across the country."
+      "note": "First national course since 2022. Meet Scouters from across the country.",
+      "zip": "25840"
     },
     {
       "id": "dmv-nylt-27",
@@ -864,7 +910,8 @@
       "location": "Henson Scout Reservation, Rhodesdale, MD",
       "cost": "$275 ($305 if not paid by Sep 25, 2027)",
       "url": "https://scoutingevent.com/081-NYLT",
-      "note": "Runs over winter break, so it doesn't compete with spring sports."
+      "note": "Runs over winter break, so it doesn't compete with spring sports.",
+      "zip": "21659"
     },
     {
       "id": "ncac-wb-27",
@@ -879,7 +926,8 @@
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "2026: $310",
       "url": "https://ncacscouting.org/training/wood-badge/",
-      "note": "Scholarship requests are part of registration."
+      "note": "Scholarship requests are part of registration.",
+      "zip": "20169"
     },
     {
       "id": "ncac-mbweeks-27",
@@ -893,7 +941,8 @@
       "dateText": "Not posted yet. 2026 weeks were Jul 12–17 and Jul 19–24",
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "2026: $580–$640 resident",
-      "url": "https://www.gotosnyder.org/summer-camp/specialty-week/"
+      "url": "https://www.gotosnyder.org/summer-camp/specialty-week/",
+      "zip": "20169"
     },
     {
       "id": "bac-summer-27",
@@ -908,7 +957,8 @@
       "location": "Broad Creek Memorial Scout Reservation, Darlington, MD",
       "cost": null,
       "url": "https://scoutingevent.com/220-27bcsc",
-      "note": "Camperships available for families who need help."
+      "note": "Camperships available for families who need help.",
+      "zip": "21034"
     },
     {
       "id": "pad-nylt-wb-27",
@@ -922,7 +972,8 @@
       "dateText": "Not posted yet. 2025 ran two weekends in late July and mid-August",
       "location": "Camp Mack, PA",
       "cost": "2025: $350",
-      "url": "https://padutchbsa.org/training/nylt/"
+      "url": "https://padutchbsa.org/training/nylt/",
+      "zip": "17543"
     },
     {
       "id": "hovc-nylt-27",
@@ -936,7 +987,8 @@
       "dateText": "Not posted yet. 2026 ran Sep 4–7 and Sep 18–20",
       "location": "Richmond area, VA",
       "cost": null,
-      "url": "https://hovc.org/nylt/"
+      "url": "https://hovc.org/nylt/",
+      "zip": "23228"
     },
     {
       "id": "bac-np-life-eagle-oct26",
@@ -950,7 +1002,8 @@
       "location": "Online",
       "url": "https://scoutingevent.com/?OrgKey=BSA220&calendarID=710988",
       "note": "For Life Scouts and their families planning the path to Eagle.",
-      "cost": null
+      "cost": null,
+      "online": true
     },
     {
       "id": "bac-rata-weekend-f26",
@@ -964,7 +1017,8 @@
       "location": "Camp Saffran, Whiteford, MD",
       "url": "https://scoutingevent.com/220-rataweekend",
       "note": "Register by Oct 31.",
-      "cost": null
+      "cost": null,
+      "zip": "21160"
     },
     {
       "id": "bac-gpf-stem-26",
@@ -978,7 +1032,8 @@
       "location": "Camp Spencer, Broad Creek Memorial Scout Reservation, MD",
       "cost": "$40 per Scout, $15 per leader",
       "url": "https://scoutingevent.com/220-2026GPFSTEMOdyssey",
-      "note": "Patrols of 4 to 8 Scouts. A district event; ask the organizer about joining from another district. Register by Nov 10."
+      "note": "Patrols of 4 to 8 Scouts. A district event; ask the organizer about joining from another district. Register by Nov 10.",
+      "zip": "21154"
     },
     {
       "id": "bac-conservation-26",
@@ -993,7 +1048,8 @@
       "location": "Camp Saffran, Broad Creek Memorial Scout Reservation, MD",
       "url": "https://scoutingevent.com/220-26conservation",
       "note": "Service hours for Scouts, outdoors at camp.",
-      "cost": null
+      "cost": null,
+      "zip": "21160"
     },
     {
       "id": "bac-rata-instructor",
@@ -1008,7 +1064,8 @@
       "location": "Camp Saffran, Whiteford, MD",
       "url": "https://scoutingevent.com/220-26RATA",
       "note": "For adults who will run range and target activities.",
-      "cost": null
+      "cost": null,
+      "zip": "21160"
     },
     {
       "id": "bac-oa-banquet-27",
@@ -1022,7 +1079,8 @@
       "location": "Sparrows Point Country Club, MD",
       "cost": "$40 youth, $50 adults",
       "url": "https://scoutingevent.com/220-2027LodgeBanquet",
-      "note": "Installs the 2027 lodge officers. Family and friends welcome."
+      "note": "Installs the 2027 lodge officers. Family and friends welcome.",
+      "zip": "21219"
     },
     {
       "id": "ncac-nature-mb-oct26",
@@ -1035,7 +1093,8 @@
       "end": "2026-10-25",
       "location": "Gilbert Run Park, Charlotte Hall, MD",
       "url": "https://scoutingevent.com/082-nature_mbpopup",
-      "cost": null
+      "cost": null,
+      "zip": "20622"
     },
     {
       "id": "ncac-pw-life-eagle-nov26",
@@ -1049,7 +1108,8 @@
       "location": "Online",
       "url": "https://scoutingevent.com/082-110257",
       "note": "For Life Scouts, and Star Scouts who will earn Life by the end of October, with unit leader approval.",
-      "cost": null
+      "cost": null,
+      "online": true
     },
     {
       "id": "ncac-clst-f26",
@@ -1064,7 +1124,8 @@
       "location": "Heritage Presbyterian Church, Alexandria, VA",
       "url": "https://scoutingevent.com/082-clstfall26",
       "note": "Position training for Cubmasters and den leaders.",
-      "cost": null
+      "cost": null,
+      "zip": "22314"
     },
     {
       "id": "ncac-sst-f26",
@@ -1078,7 +1139,8 @@
       "location": "Heritage Presbyterian Church, Alexandria, VA",
       "url": "https://scoutingevent.com/082-sstfall26",
       "note": "Position training for Scoutmasters and assistants.",
-      "cost": null
+      "cost": null,
+      "zip": "22314"
     },
     {
       "id": "ncac-chess-nov26",
@@ -1091,7 +1153,8 @@
       "end": "2026-11-21",
       "location": "Marriott Scout Service Center, Bethesda, MD",
       "url": "https://scoutingevent.com/082-120846",
-      "cost": null
+      "cost": null,
+      "zip": "20814"
     },
     {
       "id": "ncac-fot-dec26",
@@ -1105,7 +1168,8 @@
       "location": "Saint Thomas à Becket Catholic Church, Reston, VA",
       "cost": "$25",
       "url": "https://scoutingevent.com/082-110365",
-      "note": "Train-the-trainer course, required for Wood Badge and NYLT staff. Register by Dec 1."
+      "note": "Train-the-trainer course, required for Wood Badge and NYLT staff. Register by Dec 1.",
+      "zip": "20190"
     },
     {
       "id": "ncac-nylt-26-7",
@@ -1120,7 +1184,8 @@
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "$370",
       "url": "https://scoutingevent.com/082-121369",
-      "note": "Register by Dec 19. Scholarship requests are part of registration."
+      "note": "Register by Dec 19. Scholarship requests are part of registration.",
+      "zip": "20169"
     },
     {
       "id": "ncac-nylt-27-1",
@@ -1136,7 +1201,8 @@
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "$370",
       "url": "https://scoutingevent.com/082-121369",
-      "note": "Single-gender patrols. Register by Jan 8."
+      "note": "Single-gender patrols. Register by Jan 8.",
+      "zip": "20169"
     },
     {
       "id": "ncac-nylt-27-2",
@@ -1152,7 +1218,8 @@
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "$370",
       "url": "https://scoutingevent.com/082-121369",
-      "note": "Register by Feb 5."
+      "note": "Register by Feb 5.",
+      "zip": "20169"
     },
     {
       "id": "ncac-uos-27",
@@ -1194,7 +1261,8 @@
       "location": "Izaak Walton League, Gaithersburg, MD",
       "cost": "$45",
       "url": "https://scoutingevent.com/082-115379",
-      "note": "Choose one track. Register by Apr 26."
+      "note": "Choose one track. Register by Apr 26.",
+      "zip": "20878"
     },
     {
       "id": "ncac-nylt-27-3",
@@ -1209,7 +1277,8 @@
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "$330",
       "url": "https://scoutingevent.com/082-121369",
-      "note": "Register by June 9."
+      "note": "Register by June 9.",
+      "zip": "20169"
     },
     {
       "id": "ncac-nylt-27-5",
@@ -1224,7 +1293,8 @@
       "location": "Camp William B. Snyder, Haymarket, VA",
       "cost": "$330",
       "url": "https://scoutingevent.com/082-121369",
-      "note": "Register by July 20."
+      "note": "Register by July 20.",
+      "zip": "20169"
     },
     {
       "id": "dmv-baloo-rsr-f26",
@@ -1238,7 +1308,8 @@
       "location": "Rodney Scout Reservation, North East, MD",
       "url": "https://scoutingevent.com/081-baloorsr",
       "note": "Complete the online part first. Register by Oct 28.",
-      "cost": null
+      "cost": null,
+      "zip": "21901"
     },
     {
       "id": "dmv-iols-rsr-f26",
@@ -1252,7 +1323,8 @@
       "location": "Rodney Scout Reservation, North East, MD",
       "url": "https://scoutingevent.com/081-IOLSRSRFall",
       "note": "Register by Nov 2. Confirm the Sunday end time on the page.",
-      "cost": null
+      "cost": null,
+      "zip": "21901"
     },
     {
       "id": "dmv-baloo-hsr-f26",
@@ -1266,7 +1338,8 @@
       "location": "Henson Scout Reservation, Rhodesdale, MD",
       "url": "https://scoutingevent.com/081-BALOOHSR",
       "note": "Register by Nov 8.",
-      "cost": null
+      "cost": null,
+      "zip": "21659"
     },
     {
       "id": "dmv-iols-hsr-f26",
@@ -1280,7 +1353,8 @@
       "location": "Henson Scout Reservation, Rhodesdale, MD",
       "url": "https://scoutingevent.com/081-IOLSHSRFALL",
       "note": "See the page for times.",
-      "cost": null
+      "cost": null,
+      "zip": "21659"
     },
     {
       "id": "dmv-cub-bb-archery-26",
@@ -1293,7 +1367,8 @@
       "end": "2026-11-14",
       "location": "Rodney Scout Reservation, North East, MD",
       "url": "https://scoutingevent.com/081-cubBBarchery",
-      "cost": null
+      "cost": null,
+      "zip": "21901"
     },
     {
       "id": "dmv-elkton-mbc-27",
@@ -1307,7 +1382,8 @@
       "location": "Elkton High School, Elkton, MD",
       "cost": "Last year: $35",
       "url": "https://scoutingevent.com/081-ElktonMBC",
-      "note": "The council calendar lists Jan 9, 2027, but the event page still shows last year's details. Confirm before registering."
+      "note": "The council calendar lists Jan 9, 2027, but the event page still shows last year's details. Confirm before registering.",
+      "zip": "21921"
     },
     {
       "id": "sac-baloo-iols-spr27",
@@ -1322,7 +1398,8 @@
       "location": "Camp Rock Enon Scout Reservation, Gore, VA",
       "url": "https://scoutingevent.com/598-BALOO",
       "note": "IOLS registers separately at scoutingevent.com/598-IOLS. Register by late March.",
-      "cost": null
+      "cost": null,
+      "zip": "22637"
     },
     {
       "id": "sac-baloo-iols-fall27",
@@ -1337,7 +1414,8 @@
       "location": "Camp Sinoquipe Scout Reservation, Fort Littleton, PA",
       "url": "https://scoutingevent.com/598-IOLS",
       "note": "BALOO registers separately at scoutingevent.com/598-BALOO. Register by mid-September.",
-      "cost": null
+      "cost": null,
+      "zip": "17223"
     },
     {
       "id": "nbf-newville-mbc-27",
@@ -1351,7 +1429,8 @@
       "location": "First Church of God, Newville, PA",
       "url": "https://newbirthoffreedom.org/event/2027-newville-merit-badge-college-session-1/",
       "note": "Badges, cost and registration not posted yet.",
-      "cost": null
+      "cost": null,
+      "zip": "17241"
     },
     {
       "id": "hovc-commissioner-27",
@@ -1365,7 +1444,8 @@
       "location": "Heart of Virginia Council Leadership Center, Henrico, VA",
       "url": "https://scoutingevent.com/602-117953",
       "note": "Open to unit leaders as well as commissioners. Register by Feb 2.",
-      "cost": null
+      "cost": null,
+      "zip": "23228"
     },
     {
       "id": "vhc-mbu-26",
@@ -1379,7 +1459,8 @@
       "location": "Blue Ridge Community College, Weyers Cave, VA",
       "url": "https://scoutingevent.com/763-Meritbadgeuniversity",
       "note": "Listed on the regional calendar; check the page for badges and fees.",
-      "cost": null
+      "cost": null,
+      "zip": "24486"
     }
   ],
   "aid": [

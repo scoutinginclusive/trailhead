@@ -309,3 +309,11 @@ figure { margin: 0; }
 .chiplabel { font: 600 12px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); min-width: 140px; }
 .chip.group { font-weight: 700; border-style: dashed; }
 @media (max-width: 640px) { .chiplabel { min-width: 0; width: 100%; } }
+
+/* ZIP distance */
+.distrow { gap: 10px 14px; }
+.zipbox { display: inline-flex; align-items: center; gap: 8px; font: 600 14px var(--f-body); }
+.zipbox input { width: 7.5em; font: 15px var(--f-mono); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+select:disabled { opacity: .55; }
+.pill.dist { background: var(--tent-soft); color: var(--tent); font-family: var(--f-mono); }
+#zipnote { flex: 1 1 260px; }

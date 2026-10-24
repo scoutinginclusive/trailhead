@@ -63,6 +63,22 @@
           </div>
           <select id="council" aria-label="Council"><option value="">All councils</option></select>
         </div>
+        <div class="row distrow">
+          <label class="zipbox" for="zip">Your ZIP code
+            <input id="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="e.g. 20708" aria-describedby="zipnote">
+          </label>
+          <select id="within" aria-label="Distance" disabled>
+            <option value="">Any distance</option>
+            <option value="30">Within 30 miles</option>
+            <option value="60">Within 60 miles</option>
+            <option value="120">Within 120 miles</option>
+          </select>
+          <select id="sort" aria-label="Sort" disabled>
+            <option value="date">Soonest first</option>
+            <option value="dist">Closest first</option>
+          </select>
+          <span class="small" id="zipnote">Shows straight-line miles. Your ZIP stays on your device and is never sent anywhere.</span>
+        </div>
         <div class="chipgroups" id="types" role="group" aria-label="Opportunity type"></div>
         <div class="row">
           <label class="check"><input type="checkbox" id="openOnly"> Registration open now</label>
@@ -149,7 +165,8 @@
 
   let DATA = null, councils = {};
   const today = todayFn();
-  const state = { q: "", aud: "All", council: "", types: new Set(), openOnly: false, showTba: true };
+  const state = { q: "", aud: "All", council: "", types: new Set(), openOnly: false, showTba: true, zip: "", within: "", sort: "date" };
+  let ZIPS = null, here = null;
 
   try {
     const saved = JSON.parse(localStorage.getItem("trailhead-filters") || "null");
@@ -221,12 +238,55 @@
   $("#showTba").addEventListener("change", e => { state.showTba = e.target.checked; save(); renderList(); });
   $("#council").addEventListener("change", e => { state.council = e.target.value; save(); renderList(); });
   $("#reset").addEventListener("click", () => {
-    Object.assign(state, { q: "", aud: "All", council: "", types: new Set(), openOnly: false, showTba: true });
+    Object.assign(state, { q: "", aud: "All", council: "", types: new Set(), openOnly: false, showTba: true, within: "", sort: "date" });
+    $("#within").value = ""; $("#sort").value = "date";
     $("#q").value = ""; $("#council").value = ""; $("#openOnly").checked = false; $("#showTba").checked = true;
     syncChips();
     document.querySelectorAll("[data-aud]").forEach(x => x.setAttribute("aria-pressed", x.dataset.aud === "All"));
     save(); renderList();
   });
+
+  // Distance from the visitor's ZIP. The lookup table is published with the site, so no ZIP ever leaves the browser.
+  function miles(a, b) {
+    const R = 3958.8, rad = x => x * Math.PI / 180;
+    const dLat = rad(b[0] - a[0]), dLon = rad(b[1] - a[1]);
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a[0])) * Math.cos(rad(b[0])) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+  function distOf(o) {
+    if (!here || o.online) return null;
+    const z = o.zip || (councils[o.council] || {}).zip;
+    const p = z && ZIPS[z];
+    return p ? miles(here, p) : null;
+  }
+  function loadZips() {
+    if (ZIPS) return Promise.resolve(ZIPS);
+    return fetch("assets/zips.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(z => (ZIPS = z));
+  }
+  const zipNote = $("#zipnote");
+  const DEFAULT_NOTE = zipNote.textContent;
+  function applyZip(z) {
+    state.zip = z;
+    const on = /^\d{5}$/.test(z);
+    $("#within").disabled = !on; $("#sort").disabled = !on;
+    if (!on) { here = null; zipNote.textContent = DEFAULT_NOTE; save(); if (DATA) { renderList(); renderCouncils(); } return; }
+    loadZips().then(t => {
+      here = t[z] || null;
+      zipNote.textContent = here ? "Distances from " + z + ", in straight-line miles. Your ZIP stays on your device."
+        : "We don't have " + z + " on file. Try a nearby ZIP in MD, DC, VA, PA, DE, WV or NJ.";
+      save(); if (DATA) { renderList(); renderCouncils(); }
+    }).catch(() => { zipNote.textContent = "Distances couldn't load. Refresh the page to try again."; });
+  }
+  $("#zip").value = state.zip || "";
+  $("#within").value = state.within || "";
+  $("#sort").value = state.sort || "date";
+  $("#zip").addEventListener("input", e => {
+    const v = e.target.value.replace(/\D/g, "").slice(0, 5);
+    if (v !== e.target.value) e.target.value = v;
+    if (v.length === 5 || v.length === 0) applyZip(v);
+  });
+  $("#within").addEventListener("change", e => { state.within = e.target.value; save(); renderList(); });
+  $("#sort").addEventListener("change", e => { state.sort = e.target.value; save(); renderList(); });
 
   function matches(o) {
     const c = councils[o.council] || {};
@@ -235,6 +295,7 @@
     if (state.council && o.council !== state.council) return false;
     if (state.openOnly && o.status !== "open") return false;
     if (!state.showTba && !o.start) return false;
+    if (here && state.within) { const m = distOf(o); if (m != null && m > +state.within) return false; }
     const endD = parse(o.end || o.start);
     if (endD && endD < today) return false;
     if (state.q) {
@@ -267,6 +328,11 @@
     tags.appendChild(el("span", "pill " + o.status, STATUS[o.status] || o.status));
     if (c.home) tags.appendChild(el("span", "pill home", "Home council"));
     if (o.aid) tags.appendChild(el("span", "pill aid", "Scholarships"));
+    if (here) {
+      const m = distOf(o);
+      if (o.online) tags.appendChild(el("span", "pill dist", "Online"));
+      else if (m != null) tags.appendChild(el("span", "pill dist", "≈ " + Math.round(m) + " mi away" + (o.zip ? "" : " (council office)")));
+    }
     body.appendChild(tags);
     body.appendChild(el("div", "title", o.title));
     const meta = el("div", "meta");
@@ -286,17 +352,32 @@
   function renderList() {
     const list = $("#list");
     list.textContent = "";
-    const rows = DATA.opportunities.filter(matches).sort((a, b) => {
+    const byDate = (a, b) => {
       if (!a.start && !b.start) return a.title.localeCompare(b.title);
       if (!a.start) return 1; if (!b.start) return -1;
       return a.start.localeCompare(b.start);
-    });
-    const filtered = state.q || state.aud !== "All" || state.council || state.types.size || state.openOnly || !state.showTba;
+    };
+    const byDist = (a, b) => {
+      const da = distOf(a), db = distOf(b);
+      if (da == null && db == null) return byDate(a, b);
+      if (da == null) return 1; if (db == null) return -1;
+      return da - db || byDate(a, b);
+    };
+    const distSort = here && state.sort === "dist";
+    const rows = DATA.opportunities.filter(matches).sort(distSort ? byDist : byDate);
+    const filtered = state.q || state.aud !== "All" || state.council || state.types.size || state.openOnly || !state.showTba || (here && state.within);
     $("#count").textContent = filtered
       ? "Showing " + rows.length + " · filters on"
       : rows.length + (rows.length === 1 ? " opportunity" : " opportunities");
     if (!rows.length) {
       list.appendChild(el("div", "empty", "Nothing matches those filters. Try clearing a type or council."));
+      return;
+    }
+    if (distSort) {
+      const group = el("div", "month");
+      group.appendChild(el("h3", null, "Closest first, from " + state.zip));
+      rows.forEach(o => group.appendChild(itemNode(o)));
+      list.appendChild(group);
       return;
     }
     let curKey = null, group = null;
@@ -315,13 +396,17 @@
 
   function renderCouncils() {
     const grid = $("#councilGrid");
+    grid.textContent = "";
     DATA.councils.forEach(c => {
       const card = el("article", "council");
       const hd = el("div", "hd");
       hd.appendChild(el("h3", null, c.name));
       if (c.number) hd.appendChild(el("span", "num", "#" + c.number));
       card.appendChild(hd);
-      card.appendChild(el("div", "drive", "≈ " + c.drive + " · " + c.hq));
+      const cp = here && c.zip && ZIPS[c.zip];
+      card.appendChild(el("div", "drive", cp
+        ? "≈ " + Math.round(miles(here, cp)) + " mi from you · " + c.hq
+        : "≈ " + c.drive + " from Laurel · " + c.hq));
       if (c.home || c.edge || c.national) {
         const t = el("div", "tags");
         if (c.home) t.appendChild(el("span", "pill home", "Home council"));
@@ -353,6 +438,7 @@
       });
       $("#checked").textContent = "Last checked against council websites on " + fmtDate(d.lastChecked) + ".";
       renderList(); renderCouncils();
+      if (state.zip) applyZip(state.zip);
     })
     .catch(() => {
       $("#list").textContent = "";

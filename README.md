@@ -20,6 +20,8 @@ Each opportunity looks like this:
 - `audience`: Youth, Adult or Both
 - `status`: open, soon (dates set, registration not open), tentative (save the date), tba (dates not posted)
 - `start` / `end`: YYYY-MM-DD, or null when not posted. Past events hide themselves automatically.
+- `zip` (optional): the 5-digit ZIP of the event's venue, used for "miles from you". Leave it out if the venue isn't posted; the council office's ZIP is used instead.
+- `online` (optional): `true` for online events, which show "Online" instead of a distance.
 
 Always confirm dates on the council's own page before registering.
 

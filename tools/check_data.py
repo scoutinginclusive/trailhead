@@ -68,6 +68,9 @@ def main():
         if key not in data:
             problems.append(f"missing top-level key: {key}")
     councils = {c.get("id") for c in data.get("councils", [])}
+    for c in data.get("councils", []):
+        if "zip" in c and not re.fullmatch(r"\d{5}", str(c["zip"])):
+            problems.append(f"council {c.get('id')}: zip must be 5 digits")
 
     for path, s in walk_strings(data):
         low = s.lower()
@@ -111,6 +114,10 @@ def main():
             problems.append(f"{oid}: end before start")
         if not host_ok(o.get("url", "")):
             problems.append(f"{oid}: link not on approved list: {o.get('url')}")
+        if "zip" in o and not re.fullmatch(r"\d{5}", str(o["zip"])):
+            problems.append(f"{oid}: zip must be 5 digits: {o.get('zip')}")
+        if "online" in o and o["online"] is not True:
+            problems.append(f"{oid}: online must be true or left out")
 
     for a in data.get("aid", []):
         if a.get("council") not in councils:

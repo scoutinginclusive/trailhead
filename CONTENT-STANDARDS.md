@@ -27,6 +27,7 @@ Scouting Out Scouts is for Scouts, families and volunteers. Everything on it mus
 4. Each weekly run emails the owner a summary of what changed, so a person reviews every change.
 5. Every Monday, every link on the site is checked. Links that are broken, moved or retired are reported to the owner for a decision, not silently removed.
 6. Only the `scoutinginclusive` account and collaborators it adds can change the repository.
+7. Visitor privacy: the ZIP-code distance feature runs entirely in the visitor's browser using the published `assets/zips.json` table. No ZIP code or other visitor information is ever sent anywhere or collected.
 
 ## Reporting a problem
 If anything on the site looks wrong or inappropriate, edit `data.json` to remove it (or revert the latest commit on GitHub), then tell the owner.
