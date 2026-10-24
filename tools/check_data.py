@@ -10,12 +10,12 @@ import sys
 from datetime import date
 from urllib.parse import urlparse
 
-# Same list the page enforces. Links anywhere else are rejected.
+# Same list as assets/site.js. Links anywhere else are rejected.
 APPROVED = [
     "scouting.org", "scoutingevent.com", "247scouting.com", "summitbsa.org", "nesa.org",
     "baltimorescouting.org", "broadcreekscouting.org", "ncacscouting.org", "gotosnyder.org",
     "delmarvacouncil.org", "sacscouting.org", "newbirthoffreedom.org", "padutchbsa.org", "cccbsa.org",
-    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org",
+    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org", "oa-scouting.org",
 ]
 TYPES = {"NYLT", "ILST / ILSC", "NAYLE", "Wood Badge", "BALOO / IOLS", "Adult Training",
          "Merit Badge", "Order of the Arrow", "Camp"}

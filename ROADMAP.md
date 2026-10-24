@@ -24,11 +24,11 @@ The Wood Badge ticket's vision: every Scout can take part, whatever their family
 
 | Goal | The system | Home on the site | Refresh | Status |
 |---|---|---|---|---|
-| 1. Scoutbook advancement mentoring packet and toolkit | Scoutbook toolkit: a step-by-step guide plus a short recorded walkthrough, why up-to-date records matter, and a checklist for new advancement helpers | Guides → Keeping advancement up to date (links to official Scoutbook help) | Review each August before the program year | Not started. Earliest deadline: January 2027 |
-| 2. Uniform and gear resource and referral system | Gear and uniform help: resource guide, the Scout It Out swap group (the virtual exchange), and a how-to for a portable unit uniform bin brought to meetings and bridging ceremonies | Save on Scouting | Swap group runs continuously; resource links checked every Monday | Swap group live; page and bin how-to planned |
-| 3. Scholarship and financial-aid navigation | Financial-aid navigator: every council, district and national camp and trip aid option with a yearly deadline calendar, plus a private way for families to ask for help (a form that goes only to unit leadership, never public) | Help paying (live) → expand with deadline calendar and private request link | Links checked every Monday; deadline calendar reviewed each fall before camp registration | Help paying tab live; calendar and private form planned |
-| 4. Opportunity-awareness system for parents | Opportunity finder: the site itself, updated automatically every week (more often than the quarterly sheet the goal calls for), plus a printable one-page sheet and a QR-code flyer for drop-off tables so parents reach it directly | Opportunities (live) → add printable sheet and QR flyer | Automatic every Monday | Mostly done; printable sheet and flyer planned |
-| 5. Recruit and mentor a merit badge counselor | Counselor pipeline: why counselors matter, how to apply, required training, and a short prep-conversation guide a mentor can use with any new recruit | Guides → Becoming a merit badge counselor | Reviewed yearly; links checked every Monday | Planned |
+| 1. Scoutbook advancement mentoring packet and toolkit | Scoutbook toolkit: a step-by-step guide plus a short recorded walkthrough, why up-to-date records matter, and a checklist for new advancement helpers | Guides → Keeping advancement up to date (links to official Scoutbook help) | Review each August before the program year | Toolkit page live; recorded walkthrough and training session to come |
+| 2. Uniform and gear resource and referral system | Gear and uniform help: resource guide, the Scout It Out swap group (the virtual exchange), and a how-to for a portable unit uniform bin brought to meetings and bridging ceremonies | Save on Scouting | Swap group runs continuously; resource links checked every Monday | Live |
+| 3. Scholarship and financial-aid navigation | Financial-aid navigator: every council, district and national camp and trip aid option with a yearly deadline calendar, plus a private way for families to ask for help (a form that goes only to unit leadership, never public) | Help paying (live) → expand with deadline calendar and private request link | Links checked every Monday; deadline calendar reviewed each fall before camp registration | Live; each unit sets up its own private form |
+| 4. Opportunity-awareness system for parents | Opportunity finder: the site itself, updated automatically every week (more often than the quarterly sheet the goal calls for), plus a printable one-page sheet and a QR-code flyer for drop-off tables so parents reach it directly | Opportunities (live) → add printable sheet and QR flyer | Automatic every Monday | Live |
+| 5. Recruit and mentor a merit badge counselor | Counselor pipeline: why counselors matter, how to apply, required training, and a short prep-conversation guide a mentor can use with any new recruit | Guides → Becoming a merit badge counselor | Reviewed yearly; links checked every Monday | Guide live; recruiting and mentoring are in-person steps |
 
 ### Suggested build order (by ticket deadline)
 1. Goal 4 finishing touches: printable sheet and QR flyer (closest to done, and the first sheet is due within about two months).
@@ -43,10 +43,16 @@ The Wood Badge ticket's vision: every Scout can take part, whatever their family
 - Privacy: personal contact details from the ticket worksheet stay off this public site.
 
 ## Done
-- Opportunities list from 10 councils within about two hours of Laurel, MD (NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO/IOLS, merit badges, OA, camps).
-- Help paying, Councils and Training path tabs.
-- Weekly automatic update with a safety check and content standards.
-- Weekly link check with a report to the owner.
+- Opportunities list from 10 councils within about two hours of Laurel, MD (NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO/IOLS, merit badges, OA, camps), with Councils and Training path tabs.
+- Site menu on every page and a shared look (`assets/`).
+- Goal 1: Scoutbook Plus toolkit on Guides (recorded walkthrough still to come).
+- Goal 2: Save on Scouting page with the Scout It Out swap group, NCAC's gear program and the uniform bin how-to.
+- Goal 3: Help paying page with private-request steps for families and leaders, aid by council, national help and the yearly calendar.
+- Goal 4: Printable one-page sheet and QR flyer (`print.html`).
+- Goal 5: Becoming a merit badge counselor guide with a mentor's prep conversation, plus the 2026 Eagle-required list.
+- About page mapping every goal to the Scout Oath and Law and the Wood Badge themes.
+- Hand-off guide (`MAINTAINING.md`).
+- Weekly automatic update with a safety check, content standards and a link check of every page.
 
 ## Site layout when built
 A small menu across the top of every page:

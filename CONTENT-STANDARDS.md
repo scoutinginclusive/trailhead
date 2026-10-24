@@ -3,7 +3,8 @@
 Scouting Out Scouts is for Scouts, families and volunteers. Everything on it must be accurate and appropriate for a Scouting America youth audience. These rules apply to people and to the automatic weekly update alike.
 
 ## What belongs
-- Scouting America programs only: NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO, IOLS and other leader training, merit badge events, Order of the Arrow, council camps, and scholarships or financial aid for these.
+- Scouting America programs, plus guidance for families and volunteers on joining, saving money, paying for Scouting, advancement and becoming a counselor.
+- Listings are Scouting America programs only: NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO, IOLS and other leader training, merit badge events, Order of the Arrow, council camps, and scholarships or financial aid for these.
 - Councils within about two hours of Laurel, MD, plus national courses open to everyone.
 
 ## Accuracy
@@ -12,14 +13,14 @@ Scouting Out Scouts is for Scouts, families and volunteers. Everything on it mus
 - Past events are removed after they end.
 
 ## What never goes on the site
-- Links to anything other than the approved official Scouting sites (the list is in `index.html` and `tools/check_data.py`).
+- Links to anything other than the approved official Scouting sites (the list is in `assets/site.js` and `tools/check_data.py`). The written pages may also link to a short list of reviewed exceptions: the Scout It Out swap group on Facebook and this project's own GitHub repository. Each new exception is reviewed by a person and added here first.
 - Images, video, HTML or code inside `data.json`.
 - Anything sexual, violent, hateful, or about alcohol, drugs, gambling or dating.
-- Fundraisers, social events for adults, committee meetings and roundtables.
+- Listings for fundraisers, social events for adults, committee meetings and roundtables. (Guidance on approved ways to earn money, on the Save on Scouting page, is fine.)
 - Personal phone numbers or emails, except a course contact the council itself published for that course.
 
 ## Safeguards
-1. The page only shows text from `data.json`, never markup, and only links to approved sites.
+1. Pages only show text from `data.json`, never markup, and only link to approved sites. The written pages (`help.html`, `save.html`, `guides.html`, `about.html`) are written and reviewed by people, and the automatic update never edits them.
 2. Every automatic update runs `python3 tools/check_data.py data.json <previous copy>`. If the check fails, the update is not published and the owner is emailed the reasons.
 3. An update that would remove more than 15 listings or any council stops for a human look.
 4. Each weekly run emails the owner a summary of what changed, so a person reviews every change.
