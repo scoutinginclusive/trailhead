@@ -317,3 +317,9 @@ figure { margin: 0; }
 select:disabled { opacity: .55; }
 .pill.dist { background: var(--tent-soft); color: var(--tent); font-family: var(--f-mono); }
 #zipnote { flex: 1 1 260px; }
+
+/* Safe Scouting and disclaimer */
+.callout.official { border-left: 4px solid var(--gold); }
+.panel.urgent { border: 2px solid var(--soon); }
+.panel.urgent h3 { color: var(--soon); }
+footer .disclaimer { border-top: 1px solid var(--line); padding-top: 10px; }

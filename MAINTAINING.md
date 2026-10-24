@@ -3,7 +3,7 @@
 A hand-off guide for any volunteer. No coding needed for the everyday jobs.
 
 ## How the site works
-- **Pages:** `index.html` (Opportunities), `calendars.html` (Calendars, built from each council's `calendars` list in `data.json`), `help.html` (Help paying), `save.html` (Save on Scouting), `guides.html` (Guides), `about.html` (About) and `print.html` (printable sheet and flyer).
+- **Pages:** `index.html` (Opportunities), `calendars.html` (Calendars, built from each council's `calendars` list in `data.json`), `help.html` (Help paying), `safety.html` (Safe Scouting), `save.html` (Save on Scouting), `guides.html` (Guides), `about.html` (About) and `print.html` (printable sheet and flyer).
 - **The list:** every course, event, council and aid link shown on Opportunities, Help paying and the printable sheet comes from `data.json`.
 - **Shared look:** `assets/site.css` (styles), `assets/site.js` (shared code and the approved-link list), `assets/qr-site.svg` (QR code to the site).
 - **Distances:** `assets/zips.json` maps about 5,300 ZIP codes in MD, DC, VA, PA, DE, WV and NJ to map coordinates, so visitors can see "miles from you". It rarely needs changes; if a venue's ZIP is missing from it, distance for that listing falls back to the council office.
@@ -37,6 +37,7 @@ Every field is explained in `README.md`. Every listing must follow `CONTENT-STAN
 4. Commit.
 
 ## Yearly job: review the guides (each August)
+- Compare `safety.html` with the current Guide to Safe Scouting, Scouting's Barriers to Abuse and the Safeguarding Youth training page. Update any rule that changed, and never loosen or reinterpret one.
 - Check the Scoutbook steps in `guides.html` against Scoutbook Plus's own help pages, since screens change.
 - Check the Eagle-required list against scouting.org.
 - Train any new advancement helpers using the EDGE steps on the Guides page.

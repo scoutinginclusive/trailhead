@@ -52,6 +52,10 @@ The Wood Badge ticket's vision: every Scout can take part, whatever their family
 - Goal 5: Becoming a merit badge counselor guide with a mentor's prep conversation, plus the 2026 Eagle-required list.
 - About page mapping every goal to the Scout Oath and Law and the Wood Badge themes.
 - Hand-off guide (`MAINTAINING.md`).
+- Calendars page linking every council's official calendar.
+- "Your ZIP code" distances, closest-first sort and distance filter, computed privately in the browser.
+- Safe Scouting page: training, barriers to abuse, tenting rules, health forms, reporting and the Scouts First Helpline, all linked to official documents.
+- "Official sources come first" disclaimer on every page.
 - Weekly automatic update with a safety check, content standards and a link check of every page.
 
 ## Site layout when built

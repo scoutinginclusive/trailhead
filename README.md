@@ -2,7 +2,7 @@
 
 Scouting America opportunities (NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO/IOLS, merit badge events, Order of the Arrow, camps) and scholarships from councils within about two hours of Laurel, MD.
 
-- `index.html` (Opportunities), `calendars.html` (Calendars), `help.html` (Help paying), `save.html` (Save on Scouting), `guides.html` (Guides), `about.html` (About) and `print.html` (printable sheet and flyer) are the pages.
+- `index.html` (Opportunities), `calendars.html` (Calendars), `help.html` (Help paying), `safety.html` (Safe Scouting), `save.html` (Save on Scouting), `guides.html` (Guides), `about.html` (About) and `print.html` (printable sheet and flyer) are the pages.
 - `data.json` holds every opportunity, council and scholarship. Edit this file to add or change listings; no page needs editing for that.
 - `assets/` holds the shared styles, shared code (including the approved-link list) and the QR code.
 - `MAINTAINING.md` is the hand-off guide for volunteers.

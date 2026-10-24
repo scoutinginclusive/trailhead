@@ -8,6 +8,8 @@ Scouting Out Scouts is for Scouts, families and volunteers. Everything on it mus
 - Councils within about two hours of Laurel, MD, plus national courses open to everyone.
 
 ## Accuracy
+- **Official sources come first.** Scouting America's official documentation (the Guide to Safe Scouting, the Guide to Advancement, Scouting's Barriers to Abuse and official forms) is the official source for every final decision, policy or change. Every page says so in its footer, and the Safe Scouting page says so at the top. If this site ever differs from an official source, the official source is correct and the site gets fixed.
+- Safety and youth protection content is a plain-language summary that always links to the official document. It never adds, loosens or reinterprets a rule.
 - Link to Scouting America's own published material instead of rewriting it, so the official version stays the source of truth.
 - Every date, fee and link must come from an official council page, scoutingevent.com, scouting.org or summitbsa.org. Never guess. If a detail isn't posted, leave it blank or mark the course "dates not posted".
 - Past events are removed after they end.
@@ -21,7 +23,7 @@ Scouting Out Scouts is for Scouts, families and volunteers. Everything on it mus
 - Personal phone numbers or emails, except a course contact the council itself published for that course.
 
 ## Safeguards
-1. Pages only show text from `data.json`, never markup, and only link to approved sites. The written pages (`help.html`, `save.html`, `guides.html`, `about.html`) are written and reviewed by people, and the automatic update never edits them.
+1. Pages only show text from `data.json`, never markup, and only link to approved sites. The written pages (`help.html`, `save.html`, `guides.html`, `safety.html`, `about.html`) are written and reviewed by people, and the automatic update never edits them.
 2. Every automatic update runs `python3 tools/check_data.py data.json <previous copy>`. If the check fails, the update is not published and the owner is emailed the reasons.
 3. An update that would remove more than 15 listings or any council stops for a human look.
 4. Each weekly run emails the owner a summary of what changed, so a person reviews every change.
