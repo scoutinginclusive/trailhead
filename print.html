@@ -130,7 +130,8 @@
       const c = councils[o.council] || {};
       const tr = el("tr");
       tr.appendChild(el("td", "when", when(o)));
-      const what = el("td"); what.appendChild(el("b", null, o.title)); what.appendChild(el("div", "small", o.type + (o.status === "open" ? " · registration open" : ""))); tr.appendChild(what);
+      const what = el("td"); what.appendChild(el("b", null, o.title)); const LABEL = { "Adult Training": "Adult course", "Merit Badge": "Merit badges", "Activity": "Event", "Camp": "Camp" };
+      what.appendChild(el("div", "small", (LABEL[o.type] || o.type) + (o.status === "open" ? " · registration open" : ""))); tr.appendChild(what);
       tr.appendChild(el("td", null, (c.name || "") + (o.location ? " · " + o.location : "")));
       tr.appendChild(el("td", null, o.cost || "See site"));
       tb.appendChild(tr);

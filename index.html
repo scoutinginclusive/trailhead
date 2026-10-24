@@ -134,9 +134,9 @@
   const GROUPS = [
     { label: "Adult training", types: ["BALOO / IOLS", "Wood Badge", "Adult Training"] },
     { label: "Youth leadership", types: ["ILST / ILSC", "NYLT", "NAYLE"] },
-    { label: "Activities", types: ["Merit Badge", "Order of the Arrow", "Camp"] }
+    { label: "Activities", types: ["Merit Badge", "Order of the Arrow", "Camp", "Activity"] }
   ];
-  const LABEL = { "Adult Training": "Other adult courses", "Merit Badge": "Merit badges", "Camp": "Camps" };
+  const LABEL = { "Adult Training": "Other adult courses", "Merit Badge": "Merit badges", "Camp": "Camps", "Activity": "Events & activities" };
   const label = t => LABEL[t] || t;
   const groupOf = t => (GROUPS.find(g => g.types.includes(t)) || {}).label || "";
   const STATUS = {

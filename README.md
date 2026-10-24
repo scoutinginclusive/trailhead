@@ -16,7 +16,7 @@ Each opportunity looks like this:
   "location": "Camp Oest, Broad Creek", "cost": "$275", "url": "https://scoutingevent.com/220-...", "note": "" }
 ```
 
-- `type`: NYLT, ILST / ILSC, NAYLE, Wood Badge, BALOO / IOLS, Adult Training, Merit Badge, Order of the Arrow, Camp
+- `type`: NYLT, ILST / ILSC, NAYLE, Wood Badge, BALOO / IOLS, Adult Training (shown as "Other adult courses"), Merit Badge, Order of the Arrow, Camp, Activity (shown as "Events & activities")
 - `audience`: Youth, Adult or Both
 - `status`: open, soon (dates set, registration not open), tentative (save the date), tba (dates not posted)
 - `start` / `end`: YYYY-MM-DD, or null when not posted. Past events hide themselves automatically.

@@ -4,7 +4,7 @@ Scouting Out Scouts is for Scouts, families and volunteers. Everything on it mus
 
 ## What belongs
 - Scouting America programs, plus guidance for families and volunteers on joining, saving money, paying for Scouting, advancement and becoming a counselor.
-- Listings are Scouting America programs only: NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO, IOLS and other leader training, merit badge events, Order of the Arrow, council camps, and scholarships or financial aid for these.
+- Listings are Scouting America programs only: NYLT, ILST/ILSC, NAYLE, Wood Badge, BALOO, IOLS and other leader training, merit badge events, Order of the Arrow, council camps, Scout-facing council and district events and activities (camporees, STEM days, range days, service projects, Life to Eagle seminars), and scholarships or financial aid for these.
 - Councils within about two hours of Laurel, MD, plus national courses open to everyone.
 
 ## Accuracy

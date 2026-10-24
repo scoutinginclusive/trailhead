@@ -18,7 +18,7 @@ APPROVED = [
     "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org", "oa-scouting.org",
 ]
 TYPES = {"NYLT", "ILST / ILSC", "NAYLE", "Wood Badge", "BALOO / IOLS", "Adult Training",
-         "Merit Badge", "Order of the Arrow", "Camp"}
+         "Merit Badge", "Order of the Arrow", "Camp", "Activity"}
 AUDIENCES = {"Youth", "Adult", "Both"}
 STATUSES = {"open", "soon", "tentative", "tba"}
 # Words that never belong on a Scouting youth site. A hit blocks publishing for human review.

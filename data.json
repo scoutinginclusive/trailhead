@@ -3,392 +3,1369 @@
   "origin": "Laurel, MD 20708 (National Pike District, Baltimore Area Council)",
   "councils": [
     {
-      "id": "bac", "name": "Baltimore Area Council", "number": "220", "hq": "Baltimore, MD", "drive": "30 min",
-      "home": true, "lodge": "Nentico Lodge",
+      "id": "bac",
+      "name": "Baltimore Area Council",
+      "number": "220",
+      "hq": "Baltimore, MD",
+      "drive": "30 min",
+      "home": true,
+      "lodge": "Nentico Lodge",
       "note": "Home council for the National Pike District (Howard and SW Baltimore Counties). Wood Badge and NYLT run every spring and fall at Broad Creek.",
       "links": [
-        { "label": "Training page", "url": "https://baltimorescouting.org/training/" },
-        { "label": "NYLT", "url": "https://baltimorescouting.org/nylt/" },
-        { "label": "Event calendar", "url": "https://scoutingevent.com/220" },
-        { "label": "Camperships", "url": "https://broadcreekscouting.org/programs/summer/camperships/" }
+        {
+          "label": "Training page",
+          "url": "https://baltimorescouting.org/training/"
+        },
+        {
+          "label": "NYLT",
+          "url": "https://baltimorescouting.org/nylt/"
+        },
+        {
+          "label": "Event calendar",
+          "url": "https://scoutingevent.com/220"
+        },
+        {
+          "label": "Camperships",
+          "url": "https://broadcreekscouting.org/programs/summer/camperships/"
+        }
       ]
     },
     {
-      "id": "ncac", "name": "National Capital Area Council", "number": "082", "hq": "Bethesda, MD", "drive": "30–45 min",
+      "id": "ncac",
+      "name": "National Capital Area Council",
+      "number": "082",
+      "hq": "Bethesda, MD",
+      "drive": "30–45 min",
       "lodge": "Amangamek-Wipit Lodge",
       "note": "Covers DC, Prince George's, Montgomery and Frederick Counties plus Northern Virginia. NYLT runs winter and summer at Camp Snyder (Haymarket, VA).",
       "links": [
-        { "label": "Training", "url": "https://ncacscouting.org/training/" },
-        { "label": "Wood Badge", "url": "https://ncacscouting.org/training/wood-badge/" },
-        { "label": "Event calendar", "url": "https://scoutingevent.com/082" },
-        { "label": "Financial support", "url": "https://ncacscouting.org/resources/financial-support/" }
+        {
+          "label": "Training",
+          "url": "https://ncacscouting.org/training/"
+        },
+        {
+          "label": "Wood Badge",
+          "url": "https://ncacscouting.org/training/wood-badge/"
+        },
+        {
+          "label": "Event calendar",
+          "url": "https://scoutingevent.com/082"
+        },
+        {
+          "label": "Financial support",
+          "url": "https://ncacscouting.org/resources/financial-support/"
+        }
       ]
     },
     {
-      "id": "dmv", "name": "Del-Mar-Va Council", "number": "081", "hq": "Dover, DE", "drive": "1 hr 45 min (Rodney camp ≈1 hr 15 min)",
+      "id": "dmv",
+      "name": "Del-Mar-Va Council",
+      "number": "081",
+      "hq": "Dover, DE",
+      "drive": "1 hr 45 min (Rodney camp ≈1 hr 15 min)",
       "lodge": "Nentego Lodge",
       "note": "Eastern Shore and Delaware. Wood Badge at Rodney Scout Reservation in North East, MD, with a low fee paid in installments.",
       "links": [
-        { "label": "Training", "url": "https://www.delmarvacouncil.org/training/" },
-        { "label": "Event calendar", "url": "https://scoutingevent.com/081" },
-        { "label": "Campership form", "url": "https://247scouting.com/forms/081-Campership" },
-        { "label": "Scholarships", "url": "https://www.delmarvacouncil.org/scholarship-opportunities" }
+        {
+          "label": "Training",
+          "url": "https://www.delmarvacouncil.org/training/"
+        },
+        {
+          "label": "Event calendar",
+          "url": "https://scoutingevent.com/081"
+        },
+        {
+          "label": "Campership form",
+          "url": "https://247scouting.com/forms/081-Campership"
+        },
+        {
+          "label": "Scholarships",
+          "url": "https://www.delmarvacouncil.org/scholarship-opportunities"
+        }
       ]
     },
     {
-      "id": "sac", "name": "Shenandoah Area Council", "number": "598", "hq": "Winchester, VA", "drive": "1 hr 30 min",
+      "id": "sac",
+      "name": "Shenandoah Area Council",
+      "number": "598",
+      "hq": "Winchester, VA",
+      "drive": "1 hr 30 min",
       "lodge": null,
       "note": "Absorbed the former Mason-Dixon Council (Hagerstown) in 2023; that area is now its Mason Dixon District. Camps: Rock Enon (VA) and Sinoquipe (PA).",
       "links": [
-        { "label": "Council site", "url": "https://sacscouting.org/" },
-        { "label": "Training", "url": "https://sacscouting.org/training/" },
-        { "label": "NYLT", "url": "https://sacscouting.org/NYLT/" },
-        { "label": "Event calendar", "url": "https://scoutingevent.com/598" }
+        {
+          "label": "Council site",
+          "url": "https://sacscouting.org/"
+        },
+        {
+          "label": "Training",
+          "url": "https://sacscouting.org/training/"
+        },
+        {
+          "label": "NYLT",
+          "url": "https://sacscouting.org/NYLT/"
+        },
+        {
+          "label": "Event calendar",
+          "url": "https://scoutingevent.com/598"
+        }
       ]
     },
     {
-      "id": "nbf", "name": "New Birth of Freedom Council", "number": "544", "hq": "Mechanicsburg, PA", "drive": "1 hr 30 min",
+      "id": "nbf",
+      "name": "New Birth of Freedom Council",
+      "number": "544",
+      "hq": "Mechanicsburg, PA",
+      "drive": "1 hr 30 min",
       "lodge": "Sasquesahanough Lodge",
       "note": "York, Adams, Cumberland, Dauphin, Franklin and Perry Counties, PA. Posts BALOO and IOLS dates well into 2028.",
       "links": [
-        { "label": "Training registrations", "url": "https://newbirthoffreedom.org/training/training-registrations/" },
-        { "label": "Events", "url": "https://newbirthoffreedom.org/events/" }
+        {
+          "label": "Training registrations",
+          "url": "https://newbirthoffreedom.org/training/training-registrations/"
+        },
+        {
+          "label": "Events",
+          "url": "https://newbirthoffreedom.org/events/"
+        }
       ]
     },
     {
-      "id": "pad", "name": "Pennsylvania Dutch Council", "number": "524", "hq": "Lancaster, PA", "drive": "1 hr 45 min",
+      "id": "pad",
+      "name": "Pennsylvania Dutch Council",
+      "number": "524",
+      "hq": "Lancaster, PA",
+      "drive": "1 hr 45 min",
       "lodge": null,
       "note": "Uses its own registration system (not scoutingevent.com). Has a Wood Badge Scholarship Fund. 2027 NYLT and Wood Badge dates not posted yet; call 717-394-4063.",
       "links": [
-        { "label": "Training", "url": "http://padutchbsa.org/training/" },
-        { "label": "NYLT", "url": "https://padutchbsa.org/training/nylt/" },
-        { "label": "Wood Badge", "url": "https://padutchbsa.org/training/wood-badge/" }
+        {
+          "label": "Training",
+          "url": "http://padutchbsa.org/training/"
+        },
+        {
+          "label": "NYLT",
+          "url": "https://padutchbsa.org/training/nylt/"
+        },
+        {
+          "label": "Wood Badge",
+          "url": "https://padutchbsa.org/training/wood-badge/"
+        }
       ]
     },
     {
-      "id": "ccc", "name": "Chester County Council", "number": "539", "hq": "Exton, PA", "drive": "1 hr 45 min (Camp Horseshoe ≈1 hr 15 min)",
+      "id": "ccc",
+      "name": "Chester County Council",
+      "number": "539",
+      "hq": "Exton, PA",
+      "drive": "1 hr 45 min (Camp Horseshoe ≈1 hr 15 min)",
       "lodge": null,
       "note": "Very active merit badge calendar. Camp Horseshoe sits just over the line in Rising Sun, MD.",
       "links": [
-        { "label": "Event calendar", "url": "https://scoutingevent.com/539" },
-        { "label": "Council site", "url": "https://www.cccbsa.org/" }
+        {
+          "label": "Event calendar",
+          "url": "https://scoutingevent.com/539"
+        },
+        {
+          "label": "Council site",
+          "url": "https://www.cccbsa.org/"
+        }
       ]
     },
     {
-      "id": "hovc", "name": "Heart of Virginia Council", "number": "602", "hq": "Henrico (Richmond), VA", "drive": "2 hr",
+      "id": "hovc",
+      "name": "Heart of Virginia Council",
+      "number": "602",
+      "hq": "Henrico (Richmond), VA",
+      "drive": "2 hr",
       "lodge": null,
       "note": "NYLT runs in the fall (2026 was Sept). Next Wood Badge is Spring 2028. Offers Buckskin youth leadership and a University of Scouting.",
       "links": [
-        { "label": "Training", "url": "https://hovc.org/training/" },
-        { "label": "NYLT", "url": "https://hovc.org/nylt/" },
-        { "label": "Wood Badge", "url": "https://hovc.org/training/wood-badge/" }
+        {
+          "label": "Training",
+          "url": "https://hovc.org/training/"
+        },
+        {
+          "label": "NYLT",
+          "url": "https://hovc.org/nylt/"
+        },
+        {
+          "label": "Wood Badge",
+          "url": "https://hovc.org/training/wood-badge/"
+        }
       ]
     },
     {
-      "id": "col", "name": "Cradle of Liberty Council", "number": "525", "hq": "Wayne (Philadelphia), PA", "drive": "2 hr 15 min",
-      "edge": true, "lodge": null,
+      "id": "col",
+      "name": "Cradle of Liberty Council",
+      "number": "525",
+      "hq": "Wayne (Philadelphia), PA",
+      "drive": "2 hr 15 min",
+      "edge": true,
+      "lodge": null,
       "note": "Just past the two-hour line. Large Merit Badge College in Horsham, PA.",
       "links": [
-        { "label": "Training", "url": "https://scoutingphilly.org/leaders/training/" },
-        { "label": "NYLT", "url": "https://scoutingphilly.org/leaders/training/nylt/" },
-        { "label": "Merit Badge College", "url": "https://scoutingphilly.org/leaders/advancement/mbc/" }
+        {
+          "label": "Training",
+          "url": "https://scoutingphilly.org/leaders/training/"
+        },
+        {
+          "label": "NYLT",
+          "url": "https://scoutingphilly.org/leaders/training/nylt/"
+        },
+        {
+          "label": "Merit Badge College",
+          "url": "https://scoutingphilly.org/leaders/advancement/mbc/"
+        }
       ]
     },
     {
-      "id": "vhc", "name": "Virginia Headwaters Council", "number": "763", "hq": "Staunton, VA", "drive": "2 hr 45 min",
-      "edge": true, "lodge": null,
+      "id": "vhc",
+      "name": "Virginia Headwaters Council",
+      "number": "763",
+      "hq": "Staunton, VA",
+      "drive": "2 hr 45 min",
+      "edge": true,
+      "lodge": null,
       "note": "Beyond two hours, listed for its summer NYLT week at Camp Shenandoah.",
       "links": [
-        { "label": "Training", "url": "http://www.virginiaheadwaters.org/training/" },
-        { "label": "NYLT", "url": "https://www.virginiaheadwaters.org/training/nylt/" }
+        {
+          "label": "Training",
+          "url": "http://www.virginiaheadwaters.org/training/"
+        },
+        {
+          "label": "NYLT",
+          "url": "https://www.virginiaheadwaters.org/training/nylt/"
+        }
       ]
     },
     {
-      "id": "natl", "name": "Scouting America (national)", "number": null, "hq": "Summit Bechtel Reserve, WV", "drive": "≈4 hr",
-      "national": true, "lodge": null,
+      "id": "natl",
+      "name": "Scouting America (national)",
+      "number": null,
+      "hq": "Summit Bechtel Reserve, WV",
+      "drive": "≈4 hr",
+      "national": true,
+      "lodge": null,
       "note": "National-level courses open to Scouts and Scouters from any council.",
       "links": [
-        { "label": "NAYLE at the Summit", "url": "https://summitbsa.org/programs/training/seven-day-conferences/nayle" },
-        { "label": "National Wood Badge", "url": "https://www.summitbsa.org/training/wood-badge/" }
+        {
+          "label": "NAYLE at the Summit",
+          "url": "https://summitbsa.org/programs/training/seven-day-conferences/nayle"
+        },
+        {
+          "label": "National Wood Badge",
+          "url": "https://www.summitbsa.org/training/wood-badge/"
+        }
       ]
     }
   ],
   "opportunities": [
-    { "id": "bac-baloo-np-f26", "council": "bac", "type": "BALOO / IOLS", "audience": "Adult", "status": "open",
-      "title": "National Pike BALOO, Fall 2026", "start": "2026-11-15", "end": "2026-11-20",
+    {
+      "id": "bac-baloo-np-f26",
+      "council": "bac",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "National Pike BALOO, Fall 2026",
+      "start": "2026-11-15",
+      "end": "2026-11-20",
       "dateText": "Virtual session Nov 15 · in person Nov 20, 2026",
-      "location": "Poplar Springs Scout Hall, Mount Airy, MD", "cost": null,
-      "url": "https://scoutingevent.com/220-fall26npdbaloo", "note": "Your own district's course. Required for Cub Scout pack overnights." },
-
-    { "id": "chc-mb-nov3", "council": "ccc", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Merit Badge Days: American Business & Citizenship in the Nation", "start": "2026-11-03", "end": "2026-11-03",
-      "location": "PARC, Exton, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-citnat", "note": "Separate registration for American Business: scoutingevent.com/539-119079" },
-
-    { "id": "ncac-weld-mb", "council": "ncac", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Welding Merit Badge Workshop", "start": "2026-11-02", "end": "2026-11-02",
-      "location": "Building Momentum, Alexandria, VA", "cost": null,
-      "url": "https://scoutingevent.com/082-113797" },
-
-    { "id": "ncac-eng-mb", "council": "ncac", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "NCAC STEM: Engineering Merit Badge Workshop", "start": "2026-11-07", "end": "2026-11-07",
-      "location": "Camp William B. Snyder, Haymarket, VA", "cost": null,
-      "url": "https://scoutingevent.com/082-120865" },
-
-    { "id": "bac-carroll-mb", "council": "bac", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Carroll District Merit Badge Day", "start": "2026-11-07", "end": "2026-11-07",
-      "location": "St. John's Catholic Church, Westminster, MD", "cost": null,
-      "url": "https://scoutingevent.com/220-120975", "note": "Pick one morning and one afternoon class. Troop members only." },
-
-    { "id": "ncac-amher-mb", "council": "ncac", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "American Heritage Merit Badge (Accotink District)", "start": "2026-11-08", "end": "2026-11-08",
-      "location": "National Museum of the U.S. Army, Fort Belvoir, VA", "cost": null,
-      "url": "https://scoutingevent.com/082-fall26amerheritage" },
-
-    { "id": "ncac-comp-mb", "council": "ncac", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Composite Materials Merit Badge Workshop", "start": "2026-11-11", "end": "2026-11-11",
-      "location": "Building Momentum, Alexandria, VA", "cost": null,
-      "url": "https://scoutingevent.com/082-113800" },
-
-    { "id": "bac-vts-26", "council": "bac", "type": "Adult Training", "audience": "Adult", "status": "open",
-      "title": "Volunteer Training Summit 2026", "start": "2026-11-14", "end": "2026-11-14",
-      "location": "Loyola Blakefield, Towson, MD", "cost": null,
-      "url": "https://scoutingevent.com/220-2026VTS", "note": "A full day of leader courses in one place." },
-
-    { "id": "ccc-mbc", "council": "ccc", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Merit Badge College (two sessions)", "start": "2026-11-14", "end": "2027-02-20",
+      "location": "Poplar Springs Scout Hall, Mount Airy, MD",
+      "cost": null,
+      "url": "https://scoutingevent.com/220-fall26npdbaloo",
+      "note": "Your own district's course. Required for Cub Scout pack overnights."
+    },
+    {
+      "id": "chc-mb-nov3",
+      "council": "ccc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Merit Badge Days: American Business & Citizenship in the Nation",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "location": "PARC, Exton, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-citnat",
+      "note": "Separate registration for American Business: scoutingevent.com/539-119079"
+    },
+    {
+      "id": "ncac-weld-mb",
+      "council": "ncac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Welding Merit Badge Workshop",
+      "start": "2026-11-02",
+      "end": "2026-11-02",
+      "location": "Building Momentum, Alexandria, VA",
+      "cost": null,
+      "url": "https://scoutingevent.com/082-113797"
+    },
+    {
+      "id": "ncac-eng-mb",
+      "council": "ncac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "NCAC STEM: Engineering Merit Badge Workshop",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": null,
+      "url": "https://scoutingevent.com/082-120865"
+    },
+    {
+      "id": "bac-carroll-mb",
+      "council": "bac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Carroll District Merit Badge Day",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "St. John's Catholic Church, Westminster, MD",
+      "cost": null,
+      "url": "https://scoutingevent.com/220-120975",
+      "note": "Pick one morning and one afternoon class. Troop members only."
+    },
+    {
+      "id": "ncac-amher-mb",
+      "council": "ncac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "American Heritage Merit Badge (Accotink District)",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "location": "National Museum of the U.S. Army, Fort Belvoir, VA",
+      "cost": null,
+      "url": "https://scoutingevent.com/082-fall26amerheritage"
+    },
+    {
+      "id": "ncac-comp-mb",
+      "council": "ncac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Composite Materials Merit Badge Workshop",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "location": "Building Momentum, Alexandria, VA",
+      "cost": null,
+      "url": "https://scoutingevent.com/082-113800"
+    },
+    {
+      "id": "bac-vts-26",
+      "council": "bac",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Volunteer Training Summit 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "Loyola Blakefield, Towson, MD",
+      "cost": null,
+      "url": "https://scoutingevent.com/220-2026VTS",
+      "note": "A full day of leader courses in one place."
+    },
+    {
+      "id": "ccc-mbc",
+      "council": "ccc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Merit Badge College (two sessions)",
+      "start": "2026-11-14",
+      "end": "2027-02-20",
       "dateText": "Nov 14, 2026 and Feb 20, 2027 (attend both)",
-      "location": "Archmere Academy, Claymont, DE", "cost": null,
-      "url": "https://scoutingevent.com/539-MBC" },
-
-    { "id": "ccc-oa-lld", "council": "ccc", "type": "Order of the Arrow", "audience": "Youth", "status": "open",
-      "title": "OA Lodge Leadership Development", "start": "2026-11-21", "end": "2026-11-21",
-      "location": "PARC, Exton, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-121702" },
-
-    { "id": "ccc-mb-weather", "council": "ccc", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Merit Badge Day: Weather", "start": "2026-11-25", "end": "2026-11-25",
-      "location": "PARC, Exton, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-122678" },
-
-    { "id": "ccc-mb-movie", "council": "ccc", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Merit Badge Day: Moviemaking", "start": "2026-12-29", "end": "2026-12-29",
-      "location": "PARC, Exton, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-122682" },
-
-    { "id": "ccc-horseshoe-mb", "council": "ccc", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Camp Horseshoe Weekend Merit Badges", "start": "2027-01-09", "end": "2027-05-08",
+      "location": "Archmere Academy, Claymont, DE",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-MBC"
+    },
+    {
+      "id": "ccc-oa-lld",
+      "council": "ccc",
+      "type": "Order of the Arrow",
+      "audience": "Youth",
+      "status": "open",
+      "title": "OA Lodge Leadership Development",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "PARC, Exton, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-121702"
+    },
+    {
+      "id": "ccc-mb-weather",
+      "council": "ccc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Merit Badge Day: Weather",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "location": "PARC, Exton, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-122678"
+    },
+    {
+      "id": "ccc-mb-movie",
+      "council": "ccc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Merit Badge Day: Moviemaking",
+      "start": "2026-12-29",
+      "end": "2026-12-29",
+      "location": "PARC, Exton, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-122682"
+    },
+    {
+      "id": "ccc-horseshoe-mb",
+      "council": "ccc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Camp Horseshoe Weekend Merit Badges",
+      "start": "2027-01-09",
+      "end": "2027-05-08",
       "dateText": "Moviemaking Jan 9 · Geology Mar 20 · Cooking Apr 17 · Kayaking Apr 24 · Fishing May 8, 2027",
-      "location": "Camp Horseshoe, Rising Sun, MD", "cost": null,
-      "url": "https://scoutingevent.com/539-119626" },
-
-    { "id": "nbf-fot-27", "council": "nbf", "type": "Adult Training", "audience": "Adult", "status": "open",
-      "title": "Fundamentals of Training, Parts 1 & 2", "start": "2027-02-06", "end": "2027-02-06",
-      "location": "Hidden Valley Scout Reservation, Loysville, PA", "cost": null,
-      "url": "https://scoutingevent.com/544-Fundamentals2027", "note": "Train-the-trainer course for anyone who will teach ILST or other courses." },
-
-    { "id": "col-mbc-27", "council": "col", "type": "Merit Badge", "audience": "Youth", "status": "soon",
-      "title": "Cradle of Liberty Merit Badge College", "start": "2027-02-06", "end": "2027-03-20",
+      "location": "Camp Horseshoe, Rising Sun, MD",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-119626"
+    },
+    {
+      "id": "nbf-fot-27",
+      "council": "nbf",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Fundamentals of Training, Parts 1 & 2",
+      "start": "2027-02-06",
+      "end": "2027-02-06",
+      "location": "Hidden Valley Scout Reservation, Loysville, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/544-Fundamentals2027",
+      "note": "Train-the-trainer course for anyone who will teach ILST or other courses."
+    },
+    {
+      "id": "col-mbc-27",
+      "council": "col",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "soon",
+      "title": "Cradle of Liberty Merit Badge College",
+      "start": "2027-02-06",
+      "end": "2027-03-20",
       "dateText": "Feb 6 and Mar 20, 2027 (separate sessions)",
-      "location": "Keith Valley Middle School, Horsham, PA", "cost": null,
-      "url": "https://scoutingphilly.org/leaders/advancement/mbc/", "note": "Badge list and registration not yet released." },
-
-    { "id": "bac-fot-27", "council": "bac", "type": "Adult Training", "audience": "Adult", "status": "open",
-      "title": "Fundamentals of Training", "start": "2027-02-13", "end": "2027-02-13",
-      "location": "Baltimore Area Council", "cost": null,
-      "url": "https://scoutingevent.com/220-27fot", "note": "Train-the-trainer course for youth and adults." },
-
-    { "id": "ccc-mb-eng", "council": "ccc", "type": "Merit Badge", "audience": "Youth", "status": "open",
-      "title": "Merit Badge Day: Engineering", "start": "2027-02-15", "end": "2027-02-15",
-      "location": "PARC, Exton, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-122362" },
-
-    { "id": "ccc-aclt", "council": "ccc", "type": "Adult Training", "audience": "Adult", "status": "open",
-      "title": "Advanced Cub Leader Training", "start": "2027-02-21", "end": "2027-02-21",
-      "location": "Oscar Lasko PARC, Exton, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-aclt" },
-
-    { "id": "ccc-ilst-27", "council": "ccc", "type": "ILST / ILSC", "audience": "Youth", "status": "open",
-      "title": "ILST, Spring 2027 (for NYLT candidates)", "start": "2027-03-13", "end": "2027-03-13",
-      "location": "Camp John H. Ware 3rd, Peach Bottom, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-112061", "note": "Council-run ILST. Register only if you plan to take Chester County's spring NYLT." },
-
-    { "id": "ccc-wfa-27", "council": "ccc", "type": "Adult Training", "audience": "Both", "status": "open",
-      "title": "Wilderness First Aid, Spring 2027", "start": "2027-03-18", "end": "2027-03-27",
+      "location": "Keith Valley Middle School, Horsham, PA",
+      "cost": null,
+      "url": "https://scoutingphilly.org/leaders/advancement/mbc/",
+      "note": "Badge list and registration not yet released."
+    },
+    {
+      "id": "bac-fot-27",
+      "council": "bac",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Fundamentals of Training",
+      "start": "2027-02-13",
+      "end": "2027-02-13",
+      "location": "Baltimore Area Council",
+      "cost": null,
+      "url": "https://scoutingevent.com/220-27fot",
+      "note": "Train-the-trainer course for youth and adults."
+    },
+    {
+      "id": "ccc-mb-eng",
+      "council": "ccc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Merit Badge Day: Engineering",
+      "start": "2027-02-15",
+      "end": "2027-02-15",
+      "location": "PARC, Exton, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-122362"
+    },
+    {
+      "id": "ccc-aclt",
+      "council": "ccc",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Advanced Cub Leader Training",
+      "start": "2027-02-21",
+      "end": "2027-02-21",
+      "location": "Oscar Lasko PARC, Exton, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-aclt"
+    },
+    {
+      "id": "ccc-ilst-27",
+      "council": "ccc",
+      "type": "ILST / ILSC",
+      "audience": "Youth",
+      "status": "open",
+      "title": "ILST, Spring 2027 (for NYLT candidates)",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "location": "Camp John H. Ware 3rd, Peach Bottom, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-112061",
+      "note": "Council-run ILST. Register only if you plan to take Chester County's spring NYLT."
+    },
+    {
+      "id": "ccc-wfa-27",
+      "council": "ccc",
+      "type": "Adult Training",
+      "audience": "Both",
+      "status": "open",
+      "title": "Wilderness First Aid, Spring 2027",
+      "start": "2027-03-18",
+      "end": "2027-03-27",
       "dateText": "Mar 18, 25 and 27, 2027",
-      "location": "Chester County Public Safety Training Campus", "cost": null,
-      "url": "https://scoutingevent.com/539-wfaspring27", "note": "Needed for high-adventure trips." },
-
-    { "id": "ccc-nylt-27", "council": "ccc", "type": "NYLT", "audience": "Youth", "status": "open",
-      "title": "NYLT, Spring 2027", "start": "2027-04-09", "end": "2027-04-18",
+      "location": "Chester County Public Safety Training Campus",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-wfaspring27",
+      "note": "Needed for high-adventure trips."
+    },
+    {
+      "id": "ccc-nylt-27",
+      "council": "ccc",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "title": "NYLT, Spring 2027",
+      "start": "2027-04-09",
+      "end": "2027-04-18",
       "dateText": "Two weekends beginning Apr 9 and Apr 16, 2027",
-      "location": "Camp John H. Ware 3rd, Peach Bottom, PA", "cost": null,
-      "url": "https://scoutingevent.com/539-NYLT27" },
-
-    { "id": "nbf-baloo-apr27", "council": "nbf", "type": "BALOO / IOLS", "audience": "Adult", "status": "soon",
-      "title": "BALOO and IOLS (same weekend)", "start": "2027-04-09", "end": "2027-04-10",
-      "location": "Hidden Valley Scout Reservation, Loysville, PA", "cost": "Meal fee",
-      "url": "https://newbirthoffreedom.org/training/training-registrations/", "note": "Registration not open yet. Complete the online portion on my.scouting.org first." },
-
-    { "id": "bac-nylt-271", "council": "bac", "type": "NYLT", "audience": "Youth", "status": "open",
-      "title": "NYLT 2027-1 (Spring)", "start": "2027-04-23", "end": "2027-05-23",
+      "location": "Camp John H. Ware 3rd, Peach Bottom, PA",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-NYLT27"
+    },
+    {
+      "id": "nbf-baloo-apr27",
+      "council": "nbf",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "soon",
+      "title": "BALOO and IOLS (same weekend)",
+      "start": "2027-04-09",
+      "end": "2027-04-10",
+      "location": "Hidden Valley Scout Reservation, Loysville, PA",
+      "cost": "Meal fee",
+      "url": "https://newbirthoffreedom.org/training/training-registrations/",
+      "note": "Registration not open yet. Complete the online portion on my.scouting.org first."
+    },
+    {
+      "id": "bac-nylt-271",
+      "council": "bac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "title": "NYLT 2027-1 (Spring)",
+      "start": "2027-04-23",
+      "end": "2027-05-23",
       "dateText": "Orientation Apr 15 · Apr 23–25 and May 21–23, 2027",
-      "location": "Camp Oest, Broad Creek Memorial Scout Reservation, Darlington, MD", "cost": "$275 ($250 if paid in full by Mar 22)",
-      "url": "https://scoutingevent.com/220-nylt271", "note": "Orientation at New Hope Lutheran Church in Columbia, right in National Pike District. Registration closes Apr 11." },
-
-    { "id": "bac-wb-271", "council": "bac", "type": "Wood Badge", "audience": "Adult", "status": "open", "aid": true,
-      "title": "Wood Badge 12-220-27-1 (Spring)", "start": "2027-04-30", "end": "2027-06-06",
+      "location": "Camp Oest, Broad Creek Memorial Scout Reservation, Darlington, MD",
+      "cost": "$275 ($250 if paid in full by Mar 22)",
+      "url": "https://scoutingevent.com/220-nylt271",
+      "note": "Orientation at New Hope Lutheran Church in Columbia, right in National Pike District. Registration closes Apr 11."
+    },
+    {
+      "id": "bac-wb-271",
+      "council": "bac",
+      "type": "Wood Badge",
+      "audience": "Adult",
+      "status": "open",
+      "aid": true,
+      "title": "Wood Badge 12-220-27-1 (Spring)",
+      "start": "2027-04-30",
+      "end": "2027-06-06",
       "dateText": "Orientation Apr 14 · Apr 30–May 2 and Jun 5–6, 2027",
-      "location": "Broad Creek Memorial Scout Reservation, MD", "cost": "≈$350 (2026 rate)",
-      "url": "https://scoutingevent.com/220-wb271", "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator." },
-
-    { "id": "dmv-wb-27", "council": "dmv", "type": "Wood Badge", "audience": "Adult", "status": "open",
-      "title": "Del-Mar-Va Wood Badge 2027", "start": "2027-04-30", "end": "2027-05-16",
+      "location": "Broad Creek Memorial Scout Reservation, MD",
+      "cost": "≈$350 (2026 rate)",
+      "url": "https://scoutingevent.com/220-wb271",
+      "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator."
+    },
+    {
+      "id": "dmv-wb-27",
+      "council": "dmv",
+      "type": "Wood Badge",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Del-Mar-Va Wood Badge 2027",
+      "start": "2027-04-30",
+      "end": "2027-05-16",
       "dateText": "Apr 30–May 2 and May 15–16, 2027",
-      "location": "Rodney Scout Reservation, North East, MD", "cost": "$225, paid in three $75 installments",
-      "url": "https://scoutingevent.com/081-WoodBadge", "note": "Lowest Wood Badge fee in the region. Full refund through Mar 31. Limited to 48." },
-
-    { "id": "nbf-baloo-may27", "council": "nbf", "type": "BALOO / IOLS", "audience": "Adult", "status": "open",
-      "title": "BALOO, May 2027", "start": "2027-05-15", "end": "2027-05-16",
-      "location": "Camp Tuckahoe, Dillsburg, PA", "cost": "Meal fee",
-      "url": "https://scoutingevent.com/544-BALOOMay2027", "note": "IOLS runs the same weekend: scoutingevent.com/544-IOLSMay2027" },
-
-    { "id": "nbf-iols-may27", "council": "nbf", "type": "BALOO / IOLS", "audience": "Adult", "status": "open",
-      "title": "IOLS, May 2027", "start": "2027-05-15", "end": "2027-05-16",
-      "location": "Camp Tuckahoe, Dillsburg, PA", "cost": "Meal fee",
-      "url": "https://scoutingevent.com/544-IOLSMay2027", "note": "Required for Scoutmasters and Assistant Scoutmasters." },
-
-    { "id": "natl-nayle-27", "council": "natl", "type": "NAYLE", "audience": "Youth", "status": "open",
-      "title": "NAYLE at the Summit Bechtel Reserve", "start": "2027-06-20", "end": "2027-07-10",
+      "location": "Rodney Scout Reservation, North East, MD",
+      "cost": "$225, paid in three $75 installments",
+      "url": "https://scoutingevent.com/081-WoodBadge",
+      "note": "Lowest Wood Badge fee in the region. Full refund through Mar 31. Limited to 48."
+    },
+    {
+      "id": "nbf-baloo-may27",
+      "council": "nbf",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "BALOO, May 2027",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "location": "Camp Tuckahoe, Dillsburg, PA",
+      "cost": "Meal fee",
+      "url": "https://scoutingevent.com/544-BALOOMay2027",
+      "note": "IOLS runs the same weekend: scoutingevent.com/544-IOLSMay2027"
+    },
+    {
+      "id": "nbf-iols-may27",
+      "council": "nbf",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "IOLS, May 2027",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "location": "Camp Tuckahoe, Dillsburg, PA",
+      "cost": "Meal fee",
+      "url": "https://scoutingevent.com/544-IOLSMay2027",
+      "note": "Required for Scoutmasters and Assistant Scoutmasters."
+    },
+    {
+      "id": "natl-nayle-27",
+      "council": "natl",
+      "type": "NAYLE",
+      "audience": "Youth",
+      "status": "open",
+      "title": "NAYLE at the Summit Bechtel Reserve",
+      "start": "2027-06-20",
+      "end": "2027-07-10",
       "dateText": "Three sessions: Jun 20–26, Jun 27–Jul 3, Jul 4–10, 2027",
-      "location": "Summit Bechtel Reserve, WV", "cost": "$645 ($250 deposit)",
-      "url": "https://summitbsa.org/programs/training/seven-day-conferences/nayle", "note": "Next step after NYLT. Requires NYLT, ILST/ILSC and a unit leadership position." },
-
-    { "id": "ccc-horseshoe-27", "council": "ccc", "type": "Camp", "audience": "Youth", "status": "open",
-      "title": "Camp Horseshoe Summer Camp 2027", "start": "2027-06-27", "end": null,
+      "location": "Summit Bechtel Reserve, WV",
+      "cost": "$645 ($250 deposit)",
+      "url": "https://summitbsa.org/programs/training/seven-day-conferences/nayle",
+      "note": "Next step after NYLT. Requires NYLT, ILST/ILSC and a unit leadership position."
+    },
+    {
+      "id": "ccc-horseshoe-27",
+      "council": "ccc",
+      "type": "Camp",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Camp Horseshoe Summer Camp 2027",
+      "start": "2027-06-27",
+      "end": null,
       "dateText": "Week 1 starts Jun 27, 2027",
-      "location": "Camp Horseshoe, Rising Sun, MD", "cost": null,
-      "url": "https://scoutingevent.com/539-116391" },
-
-    { "id": "sac-nylt-27", "council": "sac", "type": "NYLT", "audience": "Youth", "status": "open",
-      "title": "Shenandoah NYLT 2027", "start": "2027-07-11", "end": "2027-07-17",
-      "location": "Camp Rock Enon Scout Reservation, Gore, VA", "cost": "Not yet posted",
-      "url": "https://scoutingevent.com/598-NYLT", "note": "Listed as one week, but the page also mentions two weekends. Confirm with the council (540-662-2551)." },
-
-    { "id": "vhc-nylt-27", "council": "vhc", "type": "NYLT", "audience": "Youth", "status": "soon",
-      "title": "Virginia Headwaters NYLT 2027", "start": "2027-07-18", "end": "2027-07-23",
-      "location": "Camp Shenandoah, VA", "cost": "$295 ($75 deposit)",
-      "url": "https://www.virginiaheadwaters.org/training/nylt/" },
-
-    { "id": "bac-wb-272", "council": "bac", "type": "Wood Badge", "audience": "Adult", "status": "open", "aid": true,
-      "title": "Wood Badge 12-220-27-2 (Fall)", "start": "2027-09-11", "end": "2027-10-24",
+      "location": "Camp Horseshoe, Rising Sun, MD",
+      "cost": null,
+      "url": "https://scoutingevent.com/539-116391"
+    },
+    {
+      "id": "sac-nylt-27",
+      "council": "sac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Shenandoah NYLT 2027",
+      "start": "2027-07-11",
+      "end": "2027-07-17",
+      "location": "Camp Rock Enon Scout Reservation, Gore, VA",
+      "cost": "Not yet posted",
+      "url": "https://scoutingevent.com/598-NYLT",
+      "note": "Listed as one week, but the page also mentions two weekends. Confirm with the council (540-662-2551)."
+    },
+    {
+      "id": "vhc-nylt-27",
+      "council": "vhc",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "soon",
+      "title": "Virginia Headwaters NYLT 2027",
+      "start": "2027-07-18",
+      "end": "2027-07-23",
+      "location": "Camp Shenandoah, VA",
+      "cost": "$295 ($75 deposit)",
+      "url": "https://www.virginiaheadwaters.org/training/nylt/"
+    },
+    {
+      "id": "bac-wb-272",
+      "council": "bac",
+      "type": "Wood Badge",
+      "audience": "Adult",
+      "status": "open",
+      "aid": true,
+      "title": "Wood Badge 12-220-27-2 (Fall)",
+      "start": "2027-09-11",
+      "end": "2027-10-24",
       "dateText": "Orientation Aug 18 · Sep 11–13 and Oct 23–24, 2027",
-      "location": "Broad Creek Memorial Scout Reservation, MD", "cost": "≈$350 (2026 rate)",
-      "url": "https://scoutingevent.com/220-wb272", "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator." },
-
-    { "id": "sac-wb-27", "council": "sac", "type": "Wood Badge", "audience": "Adult", "status": "tentative",
-      "title": "Shenandoah Wood Badge 2027", "start": "2027-09-24", "end": "2027-10-10",
+      "location": "Broad Creek Memorial Scout Reservation, MD",
+      "cost": "≈$350 (2026 rate)",
+      "url": "https://scoutingevent.com/220-wb272",
+      "note": "Partial scholarships: ask the course director or the council Wood Badge coordinator."
+    },
+    {
+      "id": "sac-wb-27",
+      "council": "sac",
+      "type": "Wood Badge",
+      "audience": "Adult",
+      "status": "tentative",
+      "title": "Shenandoah Wood Badge 2027",
+      "start": "2027-09-24",
+      "end": "2027-10-10",
       "dateText": "Sep 24–26 (Camp Rock Enon) and Oct 8–10, 2027 (Camp Sinoquipe)",
-      "location": "Gore, VA and Fort Littleton, PA", "cost": "Not yet set",
-      "url": "https://scoutingevent.com/598-120946", "note": "Save-the-date listing. Registration closes Aug 1, 2027." },
-
-    { "id": "bac-nylt-272", "council": "bac", "type": "NYLT", "audience": "Youth", "status": "soon",
-      "title": "NYLT 2027-2 (Fall)", "start": "2027-09-24", "end": "2027-10-31",
+      "location": "Gore, VA and Fort Littleton, PA",
+      "cost": "Not yet set",
+      "url": "https://scoutingevent.com/598-120946",
+      "note": "Save-the-date listing. Registration closes Aug 1, 2027."
+    },
+    {
+      "id": "bac-nylt-272",
+      "council": "bac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "soon",
+      "title": "NYLT 2027-2 (Fall)",
+      "start": "2027-09-24",
+      "end": "2027-10-31",
       "dateText": "Orientation Sep 12 · Sep 24–26 and Oct 29–31, 2027",
-      "location": "Camp Oest, Broad Creek Memorial Scout Reservation, MD", "cost": "≈$275 (2027 spring rate)",
-      "url": "https://baltimorescouting.org/nylt/", "note": "Registration link not posted yet." },
-
-    { "id": "nbf-baloo-oct27", "council": "nbf", "type": "BALOO / IOLS", "audience": "Adult", "status": "soon",
-      "title": "BALOO and IOLS, Fall 2027", "start": "2027-10-08", "end": "2027-10-09",
-      "location": "Hidden Valley Scout Reservation, Loysville, PA", "cost": "Meal fee",
-      "url": "https://newbirthoffreedom.org/training/training-registrations/" },
-
-    { "id": "natl-wb-27", "council": "natl", "type": "Wood Badge", "audience": "Adult", "status": "open",
-      "title": "National Wood Badge Course", "start": "2027-11-07", "end": "2027-11-12",
-      "location": "Summit Bechtel Reserve, WV", "cost": null,
-      "url": "https://www.summitbsa.org/training/wood-badge/", "note": "First national course since 2022. Meet Scouters from across the country." },
-
-    { "id": "dmv-nylt-27", "council": "dmv", "type": "NYLT", "audience": "Youth", "status": "open",
-      "title": "Del-Mar-Va NYLT (winter break)", "start": "2027-12-27", "end": "2028-01-01",
-      "location": "Henson Scout Reservation, Rhodesdale, MD", "cost": "$275 ($305 if not paid by Sep 25, 2027)",
-      "url": "https://scoutingevent.com/081-NYLT", "note": "Runs over winter break, so it doesn't compete with spring sports." },
-
-    { "id": "ncac-nylt-27", "council": "ncac", "type": "NYLT", "audience": "Youth", "status": "tba",
-      "title": "NCAC NYLT 2027", "start": null, "end": null,
-      "dateText": "Not posted yet. In 2026: two winter courses (Jan–Feb) and four summer courses (June, July)",
-      "location": "Camp William B. Snyder, Haymarket, VA", "cost": "2026: $370 winter, $330 summer",
-      "url": "https://scoutingevent.com/082-NYLT", "note": "Scholarship requests are part of registration." },
-
-    { "id": "ncac-wb-27", "council": "ncac", "type": "Wood Badge", "audience": "Adult", "status": "tba",
-      "title": "NCAC Wood Badge 2027", "start": null, "end": null,
+      "location": "Camp Oest, Broad Creek Memorial Scout Reservation, MD",
+      "cost": "≈$275 (2027 spring rate)",
+      "url": "https://baltimorescouting.org/nylt/",
+      "note": "Registration link not posted yet."
+    },
+    {
+      "id": "nbf-baloo-oct27",
+      "council": "nbf",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "soon",
+      "title": "BALOO and IOLS, Fall 2027",
+      "start": "2027-10-08",
+      "end": "2027-10-09",
+      "location": "Hidden Valley Scout Reservation, Loysville, PA",
+      "cost": "Meal fee",
+      "url": "https://newbirthoffreedom.org/training/training-registrations/"
+    },
+    {
+      "id": "natl-wb-27",
+      "council": "natl",
+      "type": "Wood Badge",
+      "audience": "Adult",
+      "status": "open",
+      "title": "National Wood Badge Course",
+      "start": "2027-11-07",
+      "end": "2027-11-12",
+      "location": "Summit Bechtel Reserve, WV",
+      "cost": null,
+      "url": "https://www.summitbsa.org/training/wood-badge/",
+      "note": "First national course since 2022. Meet Scouters from across the country."
+    },
+    {
+      "id": "dmv-nylt-27",
+      "council": "dmv",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Del-Mar-Va NYLT (winter break)",
+      "start": "2027-12-27",
+      "end": "2028-01-01",
+      "location": "Henson Scout Reservation, Rhodesdale, MD",
+      "cost": "$275 ($305 if not paid by Sep 25, 2027)",
+      "url": "https://scoutingevent.com/081-NYLT",
+      "note": "Runs over winter break, so it doesn't compete with spring sports."
+    },
+    {
+      "id": "ncac-wb-27",
+      "council": "ncac",
+      "type": "Wood Badge",
+      "audience": "Adult",
+      "status": "tba",
+      "title": "NCAC Wood Badge 2027",
+      "start": null,
+      "end": null,
       "dateText": "Not posted yet. In 2026: spring (Apr–May) and fall (Sep–Oct)",
-      "location": "Camp William B. Snyder, Haymarket, VA", "cost": "2026: $310",
-      "url": "https://ncacscouting.org/training/wood-badge/", "note": "Scholarship requests are part of registration." },
-
-    { "id": "ncac-mbweeks-27", "council": "ncac", "type": "Merit Badge", "audience": "Youth", "status": "tba",
-      "title": "Camp Snyder Merit Badge Weeks 2027", "start": null, "end": null,
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "2026: $310",
+      "url": "https://ncacscouting.org/training/wood-badge/",
+      "note": "Scholarship requests are part of registration."
+    },
+    {
+      "id": "ncac-mbweeks-27",
+      "council": "ncac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "tba",
+      "title": "Camp Snyder Merit Badge Weeks 2027",
+      "start": null,
+      "end": null,
       "dateText": "Not posted yet. 2026 weeks were Jul 12–17 and Jul 19–24",
-      "location": "Camp William B. Snyder, Haymarket, VA", "cost": "2026: $580–$640 resident",
-      "url": "https://www.gotosnyder.org/summer-camp/specialty-week/" },
-
-    { "id": "bac-summer-27", "council": "bac", "type": "Camp", "audience": "Youth", "status": "open",
-      "title": "Broad Creek Scout Summer Camp 2027", "start": null, "end": null,
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "2026: $580–$640 resident",
+      "url": "https://www.gotosnyder.org/summer-camp/specialty-week/"
+    },
+    {
+      "id": "bac-summer-27",
+      "council": "bac",
+      "type": "Camp",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Broad Creek Scout Summer Camp 2027",
+      "start": null,
+      "end": null,
       "dateText": "Summer 2027 (see weeks on the registration page)",
-      "location": "Broad Creek Memorial Scout Reservation, Darlington, MD", "cost": null,
-      "url": "https://scoutingevent.com/220-27bcsc", "note": "Camperships available for families who need help." },
-
-    { "id": "pad-nylt-wb-27", "council": "pad", "type": "NYLT", "audience": "Youth", "status": "tba",
-      "title": "Pennsylvania Dutch NYLT 2027", "start": null, "end": null,
+      "location": "Broad Creek Memorial Scout Reservation, Darlington, MD",
+      "cost": null,
+      "url": "https://scoutingevent.com/220-27bcsc",
+      "note": "Camperships available for families who need help."
+    },
+    {
+      "id": "pad-nylt-wb-27",
+      "council": "pad",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "tba",
+      "title": "Pennsylvania Dutch NYLT 2027",
+      "start": null,
+      "end": null,
       "dateText": "Not posted yet. 2025 ran two weekends in late July and mid-August",
-      "location": "Camp Mack, PA", "cost": "2025: $350",
-      "url": "https://padutchbsa.org/training/nylt/" },
-
-    { "id": "hovc-nylt-27", "council": "hovc", "type": "NYLT", "audience": "Youth", "status": "tba",
-      "title": "Heart of Virginia NYLT 2027", "start": null, "end": null,
+      "location": "Camp Mack, PA",
+      "cost": "2025: $350",
+      "url": "https://padutchbsa.org/training/nylt/"
+    },
+    {
+      "id": "hovc-nylt-27",
+      "council": "hovc",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "tba",
+      "title": "Heart of Virginia NYLT 2027",
+      "start": null,
+      "end": null,
       "dateText": "Not posted yet. 2026 ran Sep 4–7 and Sep 18–20",
-      "location": "Richmond area, VA", "cost": null,
-      "url": "https://hovc.org/nylt/" }
+      "location": "Richmond area, VA",
+      "cost": null,
+      "url": "https://hovc.org/nylt/"
+    },
+    {
+      "id": "bac-np-life-eagle-oct26",
+      "council": "bac",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "open",
+      "title": "National Pike Life to Eagle Webinar",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "location": "Online",
+      "url": "https://scoutingevent.com/?OrgKey=BSA220&calendarID=710988",
+      "note": "For Life Scouts and their families planning the path to Eagle.",
+      "cost": null
+    },
+    {
+      "id": "bac-rata-weekend-f26",
+      "council": "bac",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Range and Target Activities Weekend (Fall)",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "Camp Saffran, Whiteford, MD",
+      "url": "https://scoutingevent.com/220-rataweekend",
+      "note": "Register by Oct 31.",
+      "cost": null
+    },
+    {
+      "id": "bac-gpf-stem-26",
+      "council": "bac",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "open",
+      "title": "The STEM Odyssey (Gunpowder Falls District)",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "location": "Camp Spencer, Broad Creek Memorial Scout Reservation, MD",
+      "cost": "$40 per Scout, $15 per leader",
+      "url": "https://scoutingevent.com/220-2026GPFSTEMOdyssey",
+      "note": "Patrols of 4 to 8 Scouts. A district event; ask the organizer about joining from another district. Register by Nov 10."
+    },
+    {
+      "id": "bac-conservation-26",
+      "council": "bac",
+      "type": "Activity",
+      "audience": "Both",
+      "status": "open",
+      "title": "Conservation service projects at Broad Creek",
+      "start": "2026-11-21",
+      "end": "2026-12-19",
+      "dateText": "Third Saturday of each month (Nov 21, Dec 19)",
+      "location": "Camp Saffran, Broad Creek Memorial Scout Reservation, MD",
+      "url": "https://scoutingevent.com/220-26conservation",
+      "note": "Service hours for Scouts, outdoors at camp.",
+      "cost": null
+    },
+    {
+      "id": "bac-rata-instructor",
+      "council": "bac",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "NRA and USA Archery instructor trainings",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "dateText": "Next session Dec 5, 2026; 2027 sessions begin Jan 9 (scoutingevent.com/220-27rata)",
+      "location": "Camp Saffran, Whiteford, MD",
+      "url": "https://scoutingevent.com/220-26RATA",
+      "note": "For adults who will run range and target activities.",
+      "cost": null
+    },
+    {
+      "id": "bac-oa-banquet-27",
+      "council": "bac",
+      "type": "Order of the Arrow",
+      "audience": "Both",
+      "status": "open",
+      "title": "Nentico Lodge Banquet 2027",
+      "start": "2027-01-03",
+      "end": "2027-01-03",
+      "location": "Sparrows Point Country Club, MD",
+      "cost": "$40 youth, $50 adults",
+      "url": "https://scoutingevent.com/220-2027LodgeBanquet",
+      "note": "Installs the 2027 lodge officers. Family and friends welcome."
+    },
+    {
+      "id": "ncac-nature-mb-oct26",
+      "council": "ncac",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Nature Merit Badge Pop-up (Western Shore)",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "location": "Gilbert Run Park, Charlotte Hall, MD",
+      "url": "https://scoutingevent.com/082-nature_mbpopup",
+      "cost": null
+    },
+    {
+      "id": "ncac-pw-life-eagle-nov26",
+      "council": "ncac",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Life to Eagle Conference (Prince William District)",
+      "start": "2026-11-02",
+      "end": "2026-11-02",
+      "location": "Online",
+      "url": "https://scoutingevent.com/082-110257",
+      "note": "For Life Scouts, and Star Scouts who will earn Life by the end of October, with unit leader approval.",
+      "cost": null
+    },
+    {
+      "id": "ncac-clst-f26",
+      "council": "ncac",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Cub Scout Leader Specific Training (Accotink Bay)",
+      "start": "2026-11-07",
+      "end": "2026-12-19",
+      "dateText": "Nov 7 or Dec 19, 2026, 9:00 to 12:30",
+      "location": "Heritage Presbyterian Church, Alexandria, VA",
+      "url": "https://scoutingevent.com/082-clstfall26",
+      "note": "Position training for Cubmasters and den leaders.",
+      "cost": null
+    },
+    {
+      "id": "ncac-sst-f26",
+      "council": "ncac",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Scoutmaster Specific Training (Accotink Bay)",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "Heritage Presbyterian Church, Alexandria, VA",
+      "url": "https://scoutingevent.com/082-sstfall26",
+      "note": "Position training for Scoutmasters and assistants.",
+      "cost": null
+    },
+    {
+      "id": "ncac-chess-nov26",
+      "council": "ncac",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "open",
+      "title": "NCAC Chess Workshop",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "Marriott Scout Service Center, Bethesda, MD",
+      "url": "https://scoutingevent.com/082-120846",
+      "cost": null
+    },
+    {
+      "id": "ncac-fot-dec26",
+      "council": "ncac",
+      "type": "Adult Training",
+      "audience": "Both",
+      "status": "open",
+      "title": "Fundamentals of Training",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "location": "Saint Thomas à Becket Catholic Church, Reston, VA",
+      "cost": "$25",
+      "url": "https://scoutingevent.com/082-110365",
+      "note": "Train-the-trainer course, required for Wood Badge and NYLT staff. Register by Dec 1."
+    },
+    {
+      "id": "ncac-nylt-26-7",
+      "council": "ncac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "aid": true,
+      "title": "NCAC NYLT Course 26-7 (winter break)",
+      "start": "2026-12-26",
+      "end": "2026-12-31",
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "$370",
+      "url": "https://scoutingevent.com/082-121369",
+      "note": "Register by Dec 19. Scholarship requests are part of registration."
+    },
+    {
+      "id": "ncac-nylt-27-1",
+      "council": "ncac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "aid": true,
+      "title": "NCAC NYLT Course 27-1 (winter)",
+      "start": "2027-01-15",
+      "end": "2027-01-31",
+      "dateText": "Jan 15–18 and Jan 30–31, 2027",
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "$370",
+      "url": "https://scoutingevent.com/082-121369",
+      "note": "Single-gender patrols. Register by Jan 8."
+    },
+    {
+      "id": "ncac-nylt-27-2",
+      "council": "ncac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "aid": true,
+      "title": "NCAC NYLT Course 27-2 (winter)",
+      "start": "2027-02-12",
+      "end": "2027-02-28",
+      "dateText": "Feb 12–15 and Feb 27–28, 2027 (attend both)",
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "$370",
+      "url": "https://scoutingevent.com/082-121369",
+      "note": "Register by Feb 5."
+    },
+    {
+      "id": "ncac-uos-27",
+      "council": "ncac",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "soon",
+      "title": "NCAC University of Scouting",
+      "start": "2027-02-20",
+      "end": "2027-02-20",
+      "location": "To be announced",
+      "url": "https://scoutingevent.com/?OrgKey=BSA082&calendarID=706266",
+      "note": "A full day of classes for leaders and parents. Registration opens in 2027.",
+      "cost": null
+    },
+    {
+      "id": "ncac-dc-camporee-27",
+      "council": "ncac",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "tentative",
+      "title": "Washington, D.C. District Spring Camporee",
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "location": "To be announced",
+      "url": "https://scoutingevent.com/082-115210",
+      "note": "Details to be announced.",
+      "cost": null
+    },
+    {
+      "id": "ncac-seneca-iols-baloo-27",
+      "council": "ncac",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "IOLS and BALOO (Seneca District)",
+      "start": "2027-05-01",
+      "end": "2027-05-02",
+      "location": "Izaak Walton League, Gaithersburg, MD",
+      "cost": "$45",
+      "url": "https://scoutingevent.com/082-115379",
+      "note": "Choose one track. Register by Apr 26."
+    },
+    {
+      "id": "ncac-nylt-27-3",
+      "council": "ncac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "aid": true,
+      "title": "NCAC NYLT Courses 27-3 and 27-4 (summer)",
+      "start": "2027-06-20",
+      "end": "2027-06-25",
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "$330",
+      "url": "https://scoutingevent.com/082-121369",
+      "note": "Register by June 9."
+    },
+    {
+      "id": "ncac-nylt-27-5",
+      "council": "ncac",
+      "type": "NYLT",
+      "audience": "Youth",
+      "status": "open",
+      "aid": true,
+      "title": "NCAC NYLT Courses 27-5 and 27-6 (summer)",
+      "start": "2027-08-01",
+      "end": "2027-08-06",
+      "location": "Camp William B. Snyder, Haymarket, VA",
+      "cost": "$330",
+      "url": "https://scoutingevent.com/082-121369",
+      "note": "Register by July 20."
+    },
+    {
+      "id": "dmv-baloo-rsr-f26",
+      "council": "dmv",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "BALOO at Rodney Scout Reservation",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "location": "Rodney Scout Reservation, North East, MD",
+      "url": "https://scoutingevent.com/081-baloorsr",
+      "note": "Complete the online part first. Register by Oct 28.",
+      "cost": null
+    },
+    {
+      "id": "dmv-iols-rsr-f26",
+      "council": "dmv",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "IOLS at Rodney Scout Reservation",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "location": "Rodney Scout Reservation, North East, MD",
+      "url": "https://scoutingevent.com/081-IOLSRSRFall",
+      "note": "Register by Nov 2. Confirm the Sunday end time on the page.",
+      "cost": null
+    },
+    {
+      "id": "dmv-baloo-hsr-f26",
+      "council": "dmv",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "BALOO at Henson Scout Reservation",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "location": "Henson Scout Reservation, Rhodesdale, MD",
+      "url": "https://scoutingevent.com/081-BALOOHSR",
+      "note": "Register by Nov 8.",
+      "cost": null
+    },
+    {
+      "id": "dmv-iols-hsr-f26",
+      "council": "dmv",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "IOLS at Henson Scout Reservation",
+      "start": "2026-11-13",
+      "end": null,
+      "location": "Henson Scout Reservation, Rhodesdale, MD",
+      "url": "https://scoutingevent.com/081-IOLSHSRFALL",
+      "note": "See the page for times.",
+      "cost": null
+    },
+    {
+      "id": "dmv-cub-bb-archery-26",
+      "council": "dmv",
+      "type": "Activity",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Cub Scout BBs and Archery",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "Rodney Scout Reservation, North East, MD",
+      "url": "https://scoutingevent.com/081-cubBBarchery",
+      "cost": null
+    },
+    {
+      "id": "dmv-elkton-mbc-27",
+      "council": "dmv",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "tentative",
+      "title": "Elkton Merit Badge College",
+      "start": "2027-01-09",
+      "end": null,
+      "location": "Elkton High School, Elkton, MD",
+      "cost": "Last year: $35",
+      "url": "https://scoutingevent.com/081-ElktonMBC",
+      "note": "The council calendar lists Jan 9, 2027, but the event page still shows last year's details. Confirm before registering."
+    },
+    {
+      "id": "sac-baloo-iols-spr27",
+      "council": "sac",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "BALOO and IOLS, Spring 2027",
+      "start": "2027-04-09",
+      "end": "2027-04-11",
+      "dateText": "IOLS Apr 9–11 · BALOO Apr 10–11, 2027",
+      "location": "Camp Rock Enon Scout Reservation, Gore, VA",
+      "url": "https://scoutingevent.com/598-BALOO",
+      "note": "IOLS registers separately at scoutingevent.com/598-IOLS. Register by late March.",
+      "cost": null
+    },
+    {
+      "id": "sac-baloo-iols-fall27",
+      "council": "sac",
+      "type": "BALOO / IOLS",
+      "audience": "Adult",
+      "status": "open",
+      "title": "BALOO and IOLS, Fall 2027",
+      "start": "2027-10-01",
+      "end": "2027-10-03",
+      "dateText": "IOLS Oct 1–3 · BALOO Oct 2–3, 2027",
+      "location": "Camp Sinoquipe Scout Reservation, Fort Littleton, PA",
+      "url": "https://scoutingevent.com/598-IOLS",
+      "note": "BALOO registers separately at scoutingevent.com/598-BALOO. Register by mid-September.",
+      "cost": null
+    },
+    {
+      "id": "nbf-newville-mbc-27",
+      "council": "nbf",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "soon",
+      "title": "Newville Merit Badge College, Session 1",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "location": "First Church of God, Newville, PA",
+      "url": "https://newbirthoffreedom.org/event/2027-newville-merit-badge-college-session-1/",
+      "note": "Badges, cost and registration not posted yet.",
+      "cost": null
+    },
+    {
+      "id": "hovc-commissioner-27",
+      "council": "hovc",
+      "type": "Adult Training",
+      "audience": "Adult",
+      "status": "open",
+      "title": "Commissioner College 2027",
+      "start": "2027-02-06",
+      "end": "2027-02-06",
+      "location": "Heart of Virginia Council Leadership Center, Henrico, VA",
+      "url": "https://scoutingevent.com/602-117953",
+      "note": "Open to unit leaders as well as commissioners. Register by Feb 2.",
+      "cost": null
+    },
+    {
+      "id": "vhc-mbu-26",
+      "council": "vhc",
+      "type": "Merit Badge",
+      "audience": "Youth",
+      "status": "open",
+      "title": "Merit Badge University 2026",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "Blue Ridge Community College, Weyers Cave, VA",
+      "url": "https://scoutingevent.com/763-Meritbadgeuniversity",
+      "note": "Listed on the regional calendar; check the page for badges and fees.",
+      "cost": null
+    }
   ],
   "aid": [
-    { "council": "bac", "title": "Wood Badge partial scholarships",
+    {
+      "council": "bac",
+      "title": "Wood Badge partial scholarships",
       "who": "Adult leaders who need help with the course fee",
       "how": "Ask the course director or Steve Rose, BAC Wood Badge Coordinator (sb.rose@verizon.net).",
-      "url": "https://baltimorescouting.org/wood-badge/" },
-    { "council": "bac", "title": "Broad Creek camperships",
+      "url": "https://baltimorescouting.org/wood-badge/"
+    },
+    {
+      "council": "bac",
+      "title": "Broad Creek camperships",
       "who": "Scouts who need help paying for summer camp",
       "how": "Apply through Broad Creek's campership page before paying camp fees.",
-      "url": "https://broadcreekscouting.org/programs/summer/camperships/" },
-    { "council": "ncac", "title": "NYLT and Wood Badge scholarship requests",
+      "url": "https://broadcreekscouting.org/programs/summer/camperships/"
+    },
+    {
+      "council": "ncac",
+      "title": "NYLT and Wood Badge scholarship requests",
       "who": "NCAC youth (NYLT) and adults (Wood Badge)",
       "how": "Request a scholarship as part of course registration.",
-      "url": "https://scoutingevent.com/082-NYLT" },
-    { "council": "ncac", "title": "Camperships and registration fee help",
+      "url": "https://scoutingevent.com/082-NYLT"
+    },
+    {
+      "council": "ncac",
+      "title": "Camperships and registration fee help",
       "who": "NCAC Scouts from households under 150% of federal poverty guidelines",
       "how": "Covers up to 50% of one camp per year and up to $80 of the council fee. Summer 2027 applications opened Oct 1. Apply before paying for camp.",
-      "url": "https://ncacscouting.org/resources/financial-support/" },
-    { "council": "dmv", "title": "Campership assistance",
+      "url": "https://ncacscouting.org/resources/financial-support/"
+    },
+    {
+      "council": "dmv",
+      "title": "Campership assistance",
       "who": "Del-Mar-Va Scouts attending council camps",
       "how": "Online form.",
-      "url": "https://247scouting.com/forms/081-Campership" },
-    { "council": "dmv", "title": "Pickard and Cook college scholarships",
+      "url": "https://247scouting.com/forms/081-Campership"
+    },
+    {
+      "council": "dmv",
+      "title": "Pickard and Cook college scholarships",
       "who": "Del-Mar-Va Scouts (Pickard) and Eagle Scouts (Cook) going on to college or trade school",
       "how": "Up to $1,000 (Cook up to $2,000 for Tri-County residents). Awarded twice a year.",
-      "url": "https://www.delmarvacouncil.org/scholarship-opportunities" },
-    { "council": "pad", "title": "Wood Badge Scholarship Fund",
+      "url": "https://www.delmarvacouncil.org/scholarship-opportunities"
+    },
+    {
+      "council": "pad",
+      "title": "Wood Badge Scholarship Fund",
       "who": "Pennsylvania Dutch adult leaders",
       "how": "Submit a scholarship request; the course director approves it.",
-      "url": "https://padutchbsa.org/training/wood-badge/" },
-    { "council": "hovc", "title": "Jon-Christian Carroll Memorial Scholarship and camperships",
+      "url": "https://padutchbsa.org/training/wood-badge/"
+    },
+    {
+      "council": "hovc",
+      "title": "Jon-Christian Carroll Memorial Scholarship and camperships",
       "who": "Heart of Virginia Scouts",
       "how": "Linked from the council training and NYLT pages.",
-      "url": "https://hovc.org/training/" },
-    { "council": "natl", "title": "NESA Eagle Scout scholarships",
+      "url": "https://hovc.org/training/"
+    },
+    {
+      "council": "natl",
+      "title": "NESA Eagle Scout scholarships",
       "who": "Eagle Scouts entering or in college",
       "how": "National competition, under 100 awards a year. Use the current year's form.",
-      "url": "https://nesa.org/scholarships/" },
-    { "council": "natl", "title": "Scouting America scholarships directory",
+      "url": "https://nesa.org/scholarships/"
+    },
+    {
+      "council": "natl",
+      "title": "Scouting America scholarships directory",
       "who": "Scouts and Venturers",
       "how": "National list of academic and program scholarships.",
-      "url": "https://www.scouting.org/awards/scholarships/" }
+      "url": "https://www.scouting.org/awards/scholarships/"
+    }
   ]
 }
