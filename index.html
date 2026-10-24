@@ -62,7 +62,7 @@
           </div>
           <select id="council" aria-label="Council"><option value="">All councils</option></select>
         </div>
-        <div class="chips" id="types" role="group" aria-label="Opportunity type"></div>
+        <div class="chipgroups" id="types" role="group" aria-label="Opportunity type"></div>
         <div class="row">
           <label class="check"><input type="checkbox" id="openOnly"> Registration open now</label>
           <label class="check"><input type="checkbox" id="showTba" checked> Include courses with dates not posted</label>
@@ -130,7 +130,15 @@
 <script>
 (function () {
   const { el, linkOrNote, parse, MONTHS, MONTHS_LONG, fmtDate, today: todayFn, loadData } = window.SOS;
-  const TYPES = ["NYLT", "ILST / ILSC", "NAYLE", "Wood Badge", "BALOO / IOLS", "Adult Training", "Merit Badge", "Order of the Arrow", "Camp"];
+  // Filter groups. "Adult Training" is the data value for other adult courses.
+  const GROUPS = [
+    { label: "Adult training", types: ["BALOO / IOLS", "Wood Badge", "Adult Training"] },
+    { label: "Youth leadership", types: ["ILST / ILSC", "NYLT", "NAYLE"] },
+    { label: "Activities", types: ["Merit Badge", "Order of the Arrow", "Camp"] }
+  ];
+  const LABEL = { "Adult Training": "Other adult courses", "Merit Badge": "Merit badges", "Camp": "Camps" };
+  const label = t => LABEL[t] || t;
+  const groupOf = t => (GROUPS.find(g => g.types.includes(t)) || {}).label || "";
   const STATUS = {
     open: "Registration open",
     soon: "Dates set · registration not open",
@@ -167,17 +175,35 @@
 
   // Filters
   const typeBox = $("#types");
-  TYPES.forEach(t => {
-    const b = el("button", "chip", t);
-    b.type = "button";
-    b.setAttribute("aria-pressed", state.types.has(t));
-    b.addEventListener("click", () => {
-      state.types.has(t) ? state.types.delete(t) : state.types.add(t);
-      b.setAttribute("aria-pressed", state.types.has(t));
-      save(); renderList();
+  const groupBtns = [];
+  function syncChips() {
+    document.querySelectorAll("#types .chip[data-type]").forEach(c => c.setAttribute("aria-pressed", state.types.has(c.dataset.type)));
+    groupBtns.forEach(({ b, g }) => b.setAttribute("aria-pressed", g.types.every(t => state.types.has(t))));
+  }
+  GROUPS.forEach(g => {
+    const row = el("div", "chiprow");
+    const gb = el("button", "chip group", "All " + g.label.toLowerCase());
+    gb.type = "button";
+    gb.addEventListener("click", () => {
+      const all = g.types.every(t => state.types.has(t));
+      g.types.forEach(t => all ? state.types.delete(t) : state.types.add(t));
+      syncChips(); save(); renderList();
     });
-    typeBox.appendChild(b);
+    groupBtns.push({ b: gb, g });
+    row.appendChild(el("span", "chiplabel", g.label));
+    row.appendChild(gb);
+    g.types.forEach(t => {
+      const b = el("button", "chip", label(t));
+      b.type = "button"; b.dataset.type = t;
+      b.addEventListener("click", () => {
+        state.types.has(t) ? state.types.delete(t) : state.types.add(t);
+        syncChips(); save(); renderList();
+      });
+      row.appendChild(b);
+    });
+    typeBox.appendChild(row);
   });
+  syncChips();
   document.querySelectorAll("[data-aud]").forEach(b => {
     b.setAttribute("aria-pressed", b.dataset.aud === state.aud);
     b.addEventListener("click", () => {
@@ -196,7 +222,7 @@
   $("#reset").addEventListener("click", () => {
     Object.assign(state, { q: "", aud: "All", council: "", types: new Set(), openOnly: false, showTba: true });
     $("#q").value = ""; $("#council").value = ""; $("#openOnly").checked = false; $("#showTba").checked = true;
-    document.querySelectorAll("#types .chip").forEach(c => c.setAttribute("aria-pressed", "false"));
+    syncChips();
     document.querySelectorAll("[data-aud]").forEach(x => x.setAttribute("aria-pressed", x.dataset.aud === "All"));
     save(); renderList();
   });
@@ -211,7 +237,7 @@
     const endD = parse(o.end || o.start);
     if (endD && endD < today) return false;
     if (state.q) {
-      const hay = [o.title, o.type, o.location, o.note, o.dateText, c.name, o.cost].join(" ").toLowerCase();
+      const hay = [o.title, o.type, label(o.type), groupOf(o.type), o.audience === "Adult" ? "adult adults" : "youth scouts", o.location, o.note, o.dateText, c.name, o.cost].join(" ").toLowerCase();
       if (!state.q.toLowerCase().split(/\s+/).filter(Boolean).every(w => hay.includes(w))) return false;
     }
     return true;
@@ -236,7 +262,7 @@
     art.appendChild(dateBlock(o));
     const body = el("div", "body");
     const tags = el("div", "tags");
-    tags.appendChild(el("span", "tag", o.type));
+    tags.appendChild(el("span", "tag", label(o.type)));
     tags.appendChild(el("span", "pill " + o.status, STATUS[o.status] || o.status));
     if (c.home) tags.appendChild(el("span", "pill home", "Home council"));
     if (o.aid) tags.appendChild(el("span", "pill aid", "Scholarships"));
@@ -264,7 +290,10 @@
       if (!a.start) return 1; if (!b.start) return -1;
       return a.start.localeCompare(b.start);
     });
-    $("#count").textContent = rows.length + (rows.length === 1 ? " opportunity" : " opportunities");
+    const filtered = state.q || state.aud !== "All" || state.council || state.types.size || state.openOnly || !state.showTba;
+    $("#count").textContent = filtered
+      ? "Showing " + rows.length + " · filters on"
+      : rows.length + (rows.length === 1 ? " opportunity" : " opportunities");
     if (!rows.length) {
       list.appendChild(el("div", "empty", "Nothing matches those filters. Try clearing a type or council."));
       return;
