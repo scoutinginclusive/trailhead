@@ -3,7 +3,7 @@
 A hand-off guide for any volunteer. No coding needed for the everyday jobs.
 
 ## How the site works
-- **Pages:** `index.html` (Opportunities), `help.html` (Help paying), `save.html` (Save on Scouting), `guides.html` (Guides), `about.html` (About) and `print.html` (printable sheet and flyer).
+- **Pages:** `index.html` (Opportunities), `calendars.html` (Calendars, built from each council's `calendars` list in `data.json`), `help.html` (Help paying), `save.html` (Save on Scouting), `guides.html` (Guides), `about.html` (About) and `print.html` (printable sheet and flyer).
 - **The list:** every course, event, council and aid link shown on Opportunities, Help paying and the printable sheet comes from `data.json`.
 - **Shared look:** `assets/site.css` (styles), `assets/site.js` (shared code and the approved-link list), `assets/qr-site.svg` (QR code to the site).
 - **Hosting:** GitHub Pages, free, with HTTPS. Any change committed to the `main` branch is live within a couple of minutes.

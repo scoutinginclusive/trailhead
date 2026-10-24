@@ -15,7 +15,7 @@ APPROVED = [
     "scouting.org", "scoutingevent.com", "247scouting.com", "summitbsa.org", "nesa.org",
     "baltimorescouting.org", "broadcreekscouting.org", "ncacscouting.org", "gotosnyder.org",
     "delmarvacouncil.org", "sacscouting.org", "newbirthoffreedom.org", "padutchbsa.org", "cccbsa.org",
-    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org", "oa-scouting.org",
+    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org", "oa-scouting.org", "nentico.org",
 ]
 TYPES = {"NYLT", "ILST / ILSC", "NAYLE", "Wood Badge", "BALOO / IOLS", "Adult Training",
          "Merit Badge", "Order of the Arrow", "Camp", "Activity"}
@@ -79,8 +79,11 @@ def main():
             if re.search(r"\b" + re.escape(w.strip()) + r"\b", low):
                 problems.append(f"{path}: contains blocked word '{w.strip()}'")
 
+    for r in data.get("regionalCalendars", []):
+        if not host_ok(r.get("url", "")):
+            problems.append(f"regional calendar link not on approved list: {r.get('url')}")
     for c in data.get("councils", []):
-        for l in c.get("links", []):
+        for l in c.get("links", []) + c.get("calendars", []):
             if not host_ok(l.get("url", "")):
                 problems.append(f"council {c.get('id')}: link not on approved list: {l.get('url')}")
 

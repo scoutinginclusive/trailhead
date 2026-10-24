@@ -5,7 +5,7 @@
   const APPROVED = ["scouting.org", "scoutingevent.com", "247scouting.com", "summitbsa.org", "nesa.org",
     "baltimorescouting.org", "broadcreekscouting.org", "ncacscouting.org", "gotosnyder.org",
     "delmarvacouncil.org", "sacscouting.org", "newbirthoffreedom.org", "padutchbsa.org", "cccbsa.org",
-    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org", "oa-scouting.org"];
+    "hovc.org", "scoutingphilly.org", "virginiaheadwaters.org", "oa-scouting.org", "nentico.org"];
 
   function safeUrl(u) {
     try {
